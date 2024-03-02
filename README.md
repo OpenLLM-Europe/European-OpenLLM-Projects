@@ -1,6 +1,6 @@
 # European OpenLLM Projects
 
-# ****[OpenLLM](https://discord.com/invite/b5UQTWQn)** : One LLM to free them all**
+### **One LLM to free them all**
 
 ![Alt Text](https://64.media.tumblr.com/d586d1cc83306a8a2948cd5b6f42c81b/tumblr_inline_p7g0lzVRSN1roj9wu_500.gif)
 
@@ -18,7 +18,7 @@ Our work is 100% open and fits in with ALT-EDIC's mission, which you can discove
 
 The mission of the ALT-EDIC is to develop a common European infrastructure in Language Technologies, focussing particularly on Large Language Models. It seeks to improve European competitiveness, increase the availability of European language data and uphold Europe's linguistic diversity and cultural richness. The ALT-EDIC is a multi-country project, run and funded by the Member States who have agreed to join it. By pooling resources, the members should achieve the critical mass of data and other resources needed to create and finetune Large Language Models, which any single member would find difficult to do alone.
  
-**OpenLLM Europe is thus making its contribution to identifying and attempting to federate national initiatives to create LLMs or learning datasets, with a view to creating open and sovereign Generative AI digital commons**.
+**OpenLLM Europe is thus making its contribution to identifying and attempting to federate national initiatives to create LLMs or learning datasets with the goal to create & promote open and sovereign Generative AI digital commons**.
 
 Here is a **list of Open Source projects in AI (mostly LLMs)** that we have gathered during our research.
 
@@ -112,7 +112,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 # Open Source LLM projects based outside of Europe 
 
-* **[LangFuse](https://langfuse.com/)** US project using european languages 🇺🇸 - Contact:[hi@langfuse.com](mailot:hi@langfuse.com)
+* **[LangFuse](https://langfuse.com/)** US project using european languages 🇺🇸 - Contact:[hi@langfuse.com](mailto:hi@langfuse.com)
 * **[Sayhan](https://huggingface.co/sayhan/Mistral-7B-Instruct-v0.2-turkish-GGUF)** - Turkish 🇹🇷 - Contact:[https://www.linkedin.com/in/sayhan-yalva%C3%A7er-0617641b1/](https://www.linkedin.com/in/sayhan-yalva%C3%A7er-0617641b1/)
 * **[AI Forever](https://github.com/ai-forever)** - Armenian 🇦🇲 - Contact:[https://www.linkedin.com/in/said-azizov-6b5a82256/](https://www.linkedin.com/in/said-azizov-6b5a82256/) 
 * **[Sosnitskij](https://huggingface.co/Sosnitskij)** - Multilingual 🌍 - Contact:[https://www.linkedin.com/in/said-azizov-6b5a82256/](https://www.linkedin.com/in/said-azizov-6b5a82256/) 
