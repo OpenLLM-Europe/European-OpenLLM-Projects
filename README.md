@@ -32,10 +32,11 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[Insat](https://bggpt.ai/blog/2024-02-18-launching-the-first-free-and-open-bulgarian-llm/)** - Contact:[bggpt@insait.ai](mailto:bggpt@insait.ai)
 
 ### **Croatian initiative** 🇭🇷 : 
-* **[CroAI](https://www.croai.org/)**  [https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/](https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/)
+* **[CroAI](https://www.croai.org/)** - [https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/](https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/)
 
 ### **Czech initiative** 🇨🇿/🇪🇺 : 
-* **[HPLT – High performance langages technologies (consortium)](https://hplt-project.org/)** - Czech Republic / European Association 🇨🇿🇪🇺   - [https://cordis.europa.eu/project/id/101070350](https://cordis.europa.eu/project/id/101070350)
+* **[HPLT – High performance langages technologies (consortium)](https://hplt-project.org/)** 
+* Czech Republic / European Association 🇨🇿🇪🇺   - [https://cordis.europa.eu/project/id/101070350](https://cordis.europa.eu/project/id/101070350)
 
 ### **Danish initiative** 🇩🇰 : 
 * **[Danish foundation models](https://huggingface.co/danish-foundation-models/munin-7b-alpha)** - [https://www.linkedin.com/in/saattrupdan/](https://www.linkedin.com/in/saattrupdan/)
@@ -59,7 +60,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **German initiatives** 🇩🇪 :
 * **[LAION](https://laion.ai/)** - Discord: <https://discord.com/invite/laion> - Contact: [contact@laion.ai](mailto:contact@laion.ai)
-* **[OpenGPTX](https://opengpt-x.de/en/)** - German 🇩🇪 - Discord: <https://discord.gg/ZmF2dJgJ> - Contact: [opengpt-x@ki-verband.de](mailto:opengpt-x@ki-verband.de) 
+* **[OpenGPTX](https://opengpt-x.de/en/)** - Discord: <https://discord.gg/ZmF2dJgJ> - Contact: [opengpt-x@ki-verband.de](mailto:opengpt-x@ki-verband.de) 
 
 ### **Greek initiative** 🇬🇷 : 
 * **[GFOSS](https://gfoss.eu/)** - Contact:[info@eellak.gr](mailto:info@eellak.gr)
@@ -72,7 +73,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **Italian initiative** 🇮🇹 : 
 * **[Fauno Italian LLM](https://github.com/RSTLess-research/Fauno-Italian-LLM)** - Contact:[bacciu@diag.uniroma1.it](mailto:bacciu@diag.uniroma1.it) 
-* **[NLP Odyssey](https://opencollective.com/nlpodyssey#category-ABOUT)** - Italian 🇮🇹 - Discord: <https://discord.gg/nlpodyssey> - Contact:[matteogrella@gmail.com](mailto:matteogrella@gmail.com) 
+* **[NLP Odyssey](https://opencollective.com/nlpodyssey#category-ABOUT)** - Discord: <https://discord.gg/nlpodyssey> - Contact:[matteogrella@gmail.com](mailto:matteogrella@gmail.com) 
 
 ### **Latvian initiative** 🇱🇻 : 
 * **[LVBERT](https://github.com/LUMII-AILab/LVBERT)** - Contact:[hello@peteris.rocks](hello@peteris.rocks)
