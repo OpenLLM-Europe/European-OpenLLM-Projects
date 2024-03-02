@@ -28,33 +28,33 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ---
 
-### **Bulgarian initiative** 🇧🇬 :
+### **Bulgarian initiatives** 🇧🇬 :
 * **[Insat](https://bggpt.ai/blog/2024-02-18-launching-the-first-free-and-open-bulgarian-llm/)** - Contact:[bggpt@insait.ai](mailto:bggpt@insait.ai)
 
-### **Croatian initiative** 🇭🇷 : 
+### **Croatian initiatives** 🇭🇷 : 
 * **[CroAI](https://www.croai.org/)** - [https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/](https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/)
 
-### **Czech initiative** 🇨🇿/🇪🇺 : 
+### **Czech initiatives** 🇨🇿/🇪🇺 : 
 * **[HPLT – High performance langages technologies (consortium)](https://hplt-project.org/)** 
 * Czech Republic / European Association 🇨🇿🇪🇺   - [https://cordis.europa.eu/project/id/101070350](https://cordis.europa.eu/project/id/101070350)
 
-### **Danish initiative** 🇩🇰 : 
+### **Danish initiatives** 🇩🇰 : 
 * **[Danish foundation models](https://huggingface.co/danish-foundation-models/munin-7b-alpha)** - [https://www.linkedin.com/in/saattrupdan/](https://www.linkedin.com/in/saattrupdan/)
 
-### **Duch initiative** 🇳🇱 : 
+### **Duch initiatives** 🇳🇱 : 
 * **[Open Future Foundation](https://openfuture.eu/)** - Contact:[hello@openfuture.eu](hello@openfuture.eu)
 
 ### **English initiatives** 🇬🇧 : 
 * **[Stability AI](https://stability.ai/)** - Multilingual 🌍 - [https://stability.ai/contact](https://stability.ai/contact)
 * **[NOUS Research](https://huggingface.co/NousResearch)** - Contact:[karan@nousresearch.com](mailto:karan@nousresearch.com)
 
-### **Estonian intiative** 🇪🇪 : 
+### **Estonian intiatives** 🇪🇪 : 
 * **[TartuNLP](https://tartunlp.ai/)** -  Discord: <https://discord.gg/tartunlp> - Contact:[ping@tartunlp.ai](mailto:ping@tartunlp.ai)
 
-### **Finnish initiative** 🇫🇮 :
+### **Finnish initiatives** 🇫🇮 :
 * **[PORO silogen](https://www.silo.ai/blog/poro-a-family-of-open-models-that-bring-european-languages-to-the-frontier)** - Contact:[Founderpeter.sarlin@silo.ai](Founderpeter.sarlin@silo.ai)
 
-### **French initiative** 🇫🇷 :
+### **French initiatives** 🇫🇷 :
 * **[Le Bon LLM](https://www.lebonllm.fr/)** - [https://www.linkedin.com/company/le-bon-llm/](https://www.linkedin.com/company/le-bon-llm/)
 * **[OpenLLM France](https://www.openllm-france.fr/)** - Contact:[contact@openllm-france.fr](mailto:contact@openllm-france.fr) - [https://www.openllm-france.fr](https://www.openllm-france.fr) 
 
@@ -62,49 +62,49 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[LAION](https://laion.ai/)** - Discord: <https://discord.com/invite/laion> - Contact: [contact@laion.ai](mailto:contact@laion.ai)
 * **[OpenGPTX](https://opengpt-x.de/en/)** - Discord: <https://discord.gg/ZmF2dJgJ> - Contact: [opengpt-x@ki-verband.de](mailto:opengpt-x@ki-verband.de) 
 
-### **Greek initiative** 🇬🇷 : 
+### **Greek initiatives** 🇬🇷 : 
 * **[GFOSS](https://gfoss.eu/)** - Contact:[info@eellak.gr](mailto:info@eellak.gr)
 
-### **Hungarian initiative** 🇭🇺 : 
+### **Hungarian initiatives** 🇭🇺 : 
 * **[Hilanco](https://hilanco.github.io/home.html)** - Contact:[tavaradi@gmail.com](tavaradi@gmail.com)
 
-### **Irish initiative** 🇮🇪 : 
+### **Irish initiatives** 🇮🇪 : 
 * **[gaBERT](https://aclanthology.org/2022.lrec-1.511.pdf)** - [https://discord.com/invite/b5UQTWQn](https://discord.com/invite/b5UQTWQn)
 
-### **Italian initiative** 🇮🇹 : 
+### **Italian initiatives** 🇮🇹 : 
 * **[Fauno Italian LLM](https://github.com/RSTLess-research/Fauno-Italian-LLM)** - Contact:[bacciu@diag.uniroma1.it](mailto:bacciu@diag.uniroma1.it) 
 * **[NLP Odyssey](https://opencollective.com/nlpodyssey#category-ABOUT)** - Discord: <https://discord.gg/nlpodyssey> - Contact:[matteogrella@gmail.com](mailto:matteogrella@gmail.com) 
 
-### **Latvian initiative** 🇱🇻 : 
+### **Latvian initiatives** 🇱🇻 : 
 * **[LVBERT](https://github.com/LUMII-AILab/LVBERT)** - Contact:[hello@peteris.rocks](hello@peteris.rocks)
 
-### **Lithuanian initiative** 🇱🇹 : 
+### **Lithuanian initiatives** 🇱🇹 : 
 * **[EMBEDDIA](http://embeddia.eu/)** - Contact:[info@embeddia.eu](mailto:info@embeddia.eu)
 
-### **Maltese initiative** 🇲🇹 : 
+### **Maltese initiatives** 🇲🇹 : 
 * **[BERTu](https://github.com/MLRS/BERTu)** - [https://www.linkedin.com/in/claudia-borg-ai/](https://www.linkedin.com/in/claudia-borg-ai/)
 
-### **Polish initiative** 🇵🇱 : 
+### **Polish initiatives** 🇵🇱 : 
 * **[Polbert](https://huggingface.co/dkleczek)** - Contact:[darek@wandb.com](mailto:darek@wandb.com)
 
-### **Portuguses initiavtive** 🇵🇹 : 
+### **Portuguses initiavtives** 🇵🇹 : 
 * **[Unbabel](https://unbabel.com/fr/research/unbabel4eu/)** - Discord: <https://discord.gg/unbabel> - [https://communityonboarding.unbabel.com/signup/step/0](https://communityonboarding.unbabel.com/signup/step/0)
 
-### **Romanian initiative** 🇷🇴 : 
+### **Romanian initiatives** 🇷🇴 : 
 * **[LLM for Romanian](https://ilds.ro/llm-for-romanian/)** - Contact:[contact@ilds.ro](mailto:contact@ilds.ro)
 
 ### **Slovak initiatives** 🇸🇰 : 
 * **[KInit](https://github.com/kinit-sk)** - [https://www.linkedin.com/in/juraj-bezdek-6b521346/](https://www.linkedin.com/in/juraj-bezdek-6b521346/)
 * **[SlovAlpaca-lora](https://huggingface.co/blip-solutions/SlovAlpaca-lora)**
   
-### **Slovenian initiative** 🇸🇮 : 
+### **Slovenian initiatives** 🇸🇮 : 
 * **[SloBERTa](https://huggingface.co/EMBEDDIA/sloberta)** - Contact:[info@embeddia.eu](mailto:info@embeddia.eu)
 
-### **Spanish initiative** 🇪🇸 : 
+### **Spanish initiatives** 🇪🇸 : 
 * **[Projecte Aina : Aguila Alpaca](https://huggingface.co/projecte-aina)** - Discord: <https://discord.gg/projecte-aina> - Contact:[aina@bsc.es](mailto:aina@bsc.es)
 * **[BSC – Barcelona supercomputing Center](https://www.bsc.es/es/join-us/job-opportunities/9024csairre1)** - Contact:[info@bsc.es](mailto:info@bsc.es)
 
-### **Swedish initiative** 🇸🇪 : 
+### **Swedish initiatives** 🇸🇪 : 
 * **[AI Sweden](https://www.ai.se/en)** - Contact:[johanna.bergman@ai.se](mailto:johanna.bergman@ai.se)
 * **[Satisfied](https://www.statisfied.io/)** - Discord: <https://discord.gg/statisfied> - Contact:[info@statisfied.io](mailto:info@statisfied.io)
 
