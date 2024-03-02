@@ -18,12 +18,12 @@ Our work is 100% open and fits in with ALT-EDIC's mission, which you can discove
 
 The mission of the ALT-EDIC is to develop a common European infrastructure in Language Technologies, focussing particularly on Large Language Models. It seeks to improve European competitiveness, increase the availability of European language data and uphold Europe's linguistic diversity and cultural richness. The ALT-EDIC is a multi-country project, run and funded by the Member States who have agreed to join it. By pooling resources, the members should achieve the critical mass of data and other resources needed to create and finetune Large Language Models, which any single member would find difficult to do alone.
  
-**OpenLLM Europe is thus making its contribution to identifying and attempting to federate national initiatives to create LLMs or learning datasets with the goal to create & promote open and sovereign Generative AI digital commons**.
+**OpenLLM Europe 🇪🇺 is thus making its contribution to identifying and attempting to federate national initiatives to create LLMs or learning datasets. Our goal is to federate, create together & promote open source and sovereign Generative AI digital commons**.
 
 Here is a **list of Open Source projects in AI (mostly LLMs)** that we have gathered during our research.
 
 Feel free to use it to build great things together.
-Feel free to amend it and add projects that we missed.
+Feel free to amen it and add projects that we missed. PR are welcome !
 Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)** 
 
 ---
