@@ -6,16 +6,29 @@
 
 Did you know that English tokens represent **more than 90 %** of generalist LLMs training data ? 
 
-We’re **OpenLLM Europe**, an Open Source community committed to empower **LLM projects in all European languages**, specifically medium and low-resource languages. We aim to build the first **multimodal multilingual european model** with partners all over the continent.
-* **[OpenLLM-Europe](https://github.com/OpenLLM-Europe)** - Europe🇪🇺 - - Discord: <https://discord.com/invite/b5UQTWQn> - Contact:[contact@openllm-europe.org](mailto:contact@openllm-europe.org) - https://github.com/OpenLLM-Europe
+We’re **OpenLLM Europe 🇪🇺**, an Open Source community committed to empower **LLM projects in all European languages**, specifically medium and low-resource languages. We aim to build the first **multimodal multilingual european model** with partners all over the continent.
 
-Here is a **list of Open Source projects in AI (mostly LLMs)** that we have gathered during our research
+* **[OpenLLM-Europe](https://github.com/OpenLLM-Europe)** 🇪🇺
+* Discord: <https://discord.com/invite/b5UQTWQn>
+* Contact:[contact@openllm-europe.org](mailto:contact@openllm-europe.org) - https://github.com/OpenLLM-Europe
 
-Feel free to use it to build great things together
-Feel free to amend it and add projects that we missed
+Our work is 100% open and fits in with ALT-EDIC's mission, which you can discover here: https://language-data-space.ec.europa.eu/related-initiatives/alt-edic_en
+* ALT = for Alliance for Language Technologies EDIC
+* EDIC = European Digital Infrastructure Consortium
+
+The mission of the ALT-EDIC is to develop a common European infrastructure in Language Technologies, focussing particularly on Large Language Models. It seeks to improve European competitiveness, increase the availability of European language data and uphold Europe's linguistic diversity and cultural richness. The ALT-EDIC is a multi-country project, run and funded by the Member States who have agreed to join it. By pooling resources, the members should achieve the critical mass of data and other resources needed to create and finetune Large Language Models, which any single member would find difficult to do alone.
+ 
+**OpenLLM Europe is thus making its contribution to identifying and attempting to federate national initiatives to create LLMs or learning datasets, with a view to creating open and sovereign Generative AI digital commons**.
+
+Here is a **list of Open Source projects in AI (mostly LLMs)** that we have gathered during our research.
+
+Feel free to use it to build great things together.
+Feel free to amend it and add projects that we missed.
 Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)** 
 
-**Bulgarian initiative**🇧🇬 :
+---
+
+### **Bulgarian initiative**🇧🇬 :
 * **[Insat](https://bggpt.ai/blog/2024-02-18-launching-the-first-free-and-open-bulgarian-llm/)** - Contact:[bggpt@insait.ai](mailto:bggpt@insait.ai)
 
 **Croatian initiative** 🇭🇷 : 
