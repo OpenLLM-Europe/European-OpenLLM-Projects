@@ -66,7 +66,8 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[GFOSS](https://gfoss.eu/)** - Contact:[info@eellak.gr](mailto:info@eellak.gr)
 
 ### **Hungarian initiatives** 🇭🇺 : 
-* **[Hilanco](https://hilanco.github.io/home.html)** - Contact:[tavaradi@gmail.com](tavaradi@gmail.com)
+* **[Hilanco](https://hilanco.github.io/home.html)** - Contact:[tavaradi@gmail.com](mailto:tavaradi@gmail.com)
+* **[HUN-REN](https://nytud.hu/en)** - Contact:[linginst@nytud.hun-ren.hu](mailto:linginst@nytud.hun-ren.hu) 
 
 ### **Irish initiatives** 🇮🇪 : 
 * **[gaBERT](https://aclanthology.org/2022.lrec-1.511.pdf)** - [https://discord.com/invite/b5UQTWQn](https://discord.com/invite/b5UQTWQn)
@@ -122,3 +123,4 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[Tollef J](https://folk.ntnu.no/tollefj/)** - Norway 🇳🇴 -  [https://www.linkedin.com/in/tollefj/](https://www.linkedin.com/in/tollefj/)
 * **[Serbian LLM](https://github.com/gordicaleksa/serbian-llm-eval)** - Serbian 🇷🇸 - [https://www.linkedin.com/in/aleksagordic/](https://www.linkedin.com/in/aleksagordic/) 
 * **[YugoGPT](https://www.yugochat.com/fr/)** - Yugoslavian community 🇷🇸🇭🇷🇧🇦🇲🇰🇽🇰 - Discord: <https://discord.gg/yugogpt> - [https://www.linkedin.com/in/aleksagordic/](https://www.linkedin.com/in/aleksagordic/)
+* **[EleutherAI](https://www.eleuther.ai/)** - International collaboration using english 🌍 - Discord:<https://discord.com/invite/zBGx3azzUn> - Contact:[contact@eleuther.ai](mailto:contact@eleuther.ai) 
