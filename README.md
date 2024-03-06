@@ -56,11 +56,13 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **French initiatives** 🇫🇷 :
 * **[Le Bon LLM](https://www.lebonllm.fr/)** - [https://www.linkedin.com/company/le-bon-llm/](https://www.linkedin.com/company/le-bon-llm/)
-* **[OpenLLM France](https://www.openllm-france.fr/)** - Contact:[contact@openllm-france.fr](mailto:contact@openllm-france.fr) - [https://www.openllm-france.fr](https://www.openllm-france.fr) 
+* **[OpenLLM France](https://www.openllm-france.fr/)** - Contact:[contact@openllm-france.fr](mailto:contact@openllm-france.fr) - [https://www.openllm-france.fr](https://www.openllm-france.fr)
+* **[Jita](https://nijta.com/fr/)** - Contact:[contact@nijta.com](mailto:contact@nijta.com) 
 
 ### **German initiatives** 🇩🇪 :
 * **[LAION](https://laion.ai/)** - Discord: <https://discord.com/invite/laion> - Contact: [contact@laion.ai](mailto:contact@laion.ai)
-* **[OpenGPTX](https://opengpt-x.de/en/)** - Discord: <https://discord.gg/ZmF2dJgJ> - Contact: [opengpt-x@ki-verband.de](mailto:opengpt-x@ki-verband.de) 
+* **[OpenGPTX](https://opengpt-x.de/en/)** - Discord: <https://discord.gg/ZmF2dJgJ> - Contact: [opengpt-x@ki-verband.de](mailto:opengpt-x@ki-verband.de)
+* **[Fraunhofer IAIS](https://www.iais.fraunhofer.de/en.html)** - Contact:[info@iais.fraunhofer.de](mailto:info@iais.fraunhofer.de) 
 
 ### **Greek initiatives** 🇬🇷 : 
 * **[GFOSS](https://gfoss.eu/)** - Contact:[info@eellak.gr](mailto:info@eellak.gr)
@@ -81,6 +83,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **Lithuanian initiatives** 🇱🇹 : 
 * **[EMBEDDIA](http://embeddia.eu/)** - Contact:[info@embeddia.eu](mailto:info@embeddia.eu)
+* **[Tilde AI powered langage technologies](https://www.tilde.com/)** - Contact:[https://www.linkedin.com/in/andrejs-vasiljevs/](mailto:https://www.linkedin.com/in/andrejs-vasiljevs/) 
 
 ### **Maltese initiatives** 🇲🇹 : 
 * **[BERTu](https://github.com/MLRS/BERTu)** - [https://www.linkedin.com/in/claudia-borg-ai/](https://www.linkedin.com/in/claudia-borg-ai/)
@@ -93,6 +96,8 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **Romanian initiatives** 🇷🇴 : 
 * **[LLM for Romanian](https://ilds.ro/llm-for-romanian/)** - Contact:[contact@ilds.ro](mailto:contact@ilds.ro)
+* **[Beia, consult international](https://beia.ro/) - Contact:[https://beiaro.eu/contact/](mailto:https://beiaro.eu/contact/) 
+
 
 ### **Slovak initiatives** 🇸🇰 : 
 * **[KInit](https://github.com/kinit-sk)** - [https://www.linkedin.com/in/juraj-bezdek-6b521346/](https://www.linkedin.com/in/juraj-bezdek-6b521346/)
@@ -104,6 +109,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 ### **Spanish initiatives** 🇪🇸 : 
 * **[Projecte Aina : Aguila Alpaca](https://huggingface.co/projecte-aina)** - Discord: <https://discord.gg/projecte-aina> - Contact:[aina@bsc.es](mailto:aina@bsc.es)
 * **[BSC – Barcelona supercomputing Center](https://www.bsc.es/es/join-us/job-opportunities/9024csairre1)** - Contact:[info@bsc.es](mailto:info@bsc.es)
+* **[Expert AI](https://www.expert.ai/)** -Contact:[jmgomez@expert.ai](mailto:jmgomez@expert.ai) 
 
 ### **Swedish initiatives** 🇸🇪 : 
 * **[AI Sweden](https://www.ai.se/en)** - Contact:[johanna.bergman@ai.se](mailto:johanna.bergman@ai.se)
@@ -111,11 +117,14 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **European projects** 🇪🇺 :
 * **[TrustLLM](https://trustllm.eu/partners/)** - Contact:[trine.platou@liu.se](mailto:trine.platou@liu.se)
+* **[Luxembourg Institute of Science and technology](https://www.list.lu/en/environment/research-groups/group/trustworthy-ai/)** - Luxembourg 🇱🇺 - Contact:[jordi.cabot@list.lu](mailto:jordi.cabot@list.lu)
+
 
 # Open Source LLM projects based outside of Europe 
 
 * **[LangFuse](https://langfuse.com/)** US project using european languages 🇺🇸 - Contact:[hi@langfuse.com](mailto:hi@langfuse.com)
 * **[Sayhan](https://huggingface.co/sayhan/Mistral-7B-Instruct-v0.2-turkish-GGUF)** - Turkish 🇹🇷 - [https://www.linkedin.com/in/sayhan-yalva%C3%A7er-0617641b1/](https://www.linkedin.com/in/sayhan-yalva%C3%A7er-0617641b1/)
+* **[Sestek](https://www.sestek.com/about-us)** - Turkish 🇹🇷 - Contact:[sales@sestek.com](mailto:sales@sestek.com)
 * **[AI Forever](https://github.com/ai-forever)** - Armenian 🇦🇲 - [https://www.linkedin.com/in/said-azizov-6b5a82256/](https://www.linkedin.com/in/said-azizov-6b5a82256/) 
 * **[Sosnitskij](https://huggingface.co/Sosnitskij)** - Multilingual 🌍 - [https://www.linkedin.com/in/said-azizov-6b5a82256/](https://www.linkedin.com/in/said-azizov-6b5a82256/) 
 * **[Evidently AI](https://www.evidentlyai.com/community)** - Multilingual 🌍 - Discord: <https://discord.gg/evidentlyai> - Contact:[hello@evidentlyai.com](mailto:hello@evidentlyai.com) 
