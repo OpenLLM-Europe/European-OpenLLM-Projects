@@ -101,7 +101,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **Slovak initiatives** 🇸🇰 : 
 * **[KInit](https://github.com/kinit-sk)** - [https://www.linkedin.com/in/juraj-bezdek-6b521346/](https://www.linkedin.com/in/juraj-bezdek-6b521346/)
-* **[SlovAlpaca-lora](https://huggingface.co/blip-solutions/SlovAlpaca-lora)**
+* **[Blip.solution](https://www.blip.solutions/contact)** - Contact:[juraj.bezdek@blip.solutions](mailto:juraj.bezdek@blip.solutions) 
   
 ### **Slovenian initiatives** 🇸🇮 : 
 * **[SloBERTa](https://huggingface.co/EMBEDDIA/sloberta)** - Contact:[info@embeddia.eu](mailto:info@embeddia.eu)
