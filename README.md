@@ -96,7 +96,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **Romanian initiatives** 🇷🇴 : 
 * **[LLM for Romanian](https://ilds.ro/llm-for-romanian/)** - Contact:[contact@ilds.ro](mailto:contact@ilds.ro)
-* **[Beia, consult international]**(https://beia.ro/) - Contact:[https://beiaro.eu/contact/](mailto:https://beiaro.eu/contact/) 
+* **[Beia, consult international](https://beia.ro/)** - Contact:[https://beiaro.eu/contact/](mailto:https://beiaro.eu/contact/) 
 
 
 ### **Slovak initiatives** 🇸🇰 : 
