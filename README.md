@@ -34,15 +34,16 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 ### **Croatian initiatives** 🇭🇷 : 
 * **[CroAI](https://www.croai.org/)** - [https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/](https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/)
 
-### **Czech initiatives** 🇨🇿/🇪🇺 : 
-* **[HPLT – High performance langages technologies (consortium)](https://hplt-project.org/)** 
-* Czech Republic / European Association 🇨🇿🇪🇺   - [https://cordis.europa.eu/project/id/101070350](https://cordis.europa.eu/project/id/101070350)
+### **Czech initiatives** 🇨🇿 : 
+* **[Czech BERT](https://aclanthology.org/2021.ranlp-1.149.pdf)** - Contact:[sidoj@kiv.zcu.cz](mailto:sidoj@kiv.zcu.cz) 
+
 
 ### **Danish initiatives** 🇩🇰 : 
 * **[Danish foundation models](https://huggingface.co/danish-foundation-models/munin-7b-alpha)** - [https://www.linkedin.com/in/saattrupdan/](https://www.linkedin.com/in/saattrupdan/)
+* **[Danskgpt](https://www.danskgpt.dk/)** - Contact:[vasu.sharma@recursionpharma.com](mailto:vasu.sharma@recursionpharma.com) 
 
 ### **Duch initiatives** 🇳🇱 : 
-* **[Open Future Foundation](https://openfuture.eu/)** - Contact:[hello@openfuture.eu](hello@openfuture.eu)
+* **[Going Dutch](https://goingdutch.ai/en/posts/introducing-geitje/)** - Contact:[edwin@edwinrijgersberg.nl](mailto:edwin@edwinrijgersberg.nl) 
 
 ### **English initiatives** 🇬🇧 : 
 * **[Stability AI](https://stability.ai/)** - Multilingual 🌍 - [https://stability.ai/contact](https://stability.ai/contact)
@@ -72,7 +73,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[HUN-REN](https://nytud.hu/en)** - Contact:[linginst@nytud.hun-ren.hu](mailto:linginst@nytud.hun-ren.hu) 
 
 ### **Irish initiatives** 🇮🇪 : 
-* **[gaBERT](https://aclanthology.org/2022.lrec-1.511.pdf)** - [https://discord.com/invite/b5UQTWQn](https://discord.com/invite/b5UQTWQn)
+* **[gaBERT](https://aclanthology.org/2022.lrec-1.511.pdf)** - Discord: [https://discord.com/invite/b5UQTWQn](https://discord.com/invite/b5UQTWQn) - Contact:[alan.cowap2@mail.dcu.ie](mailto:alan.cowap2@mail.dcu.ie) 
 
 ### **Italian initiatives** 🇮🇹 : 
 * **[Fauno Italian LLM](https://github.com/RSTLess-research/Fauno-Italian-LLM)** - Contact:[bacciu@diag.uniroma1.it](mailto:bacciu@diag.uniroma1.it) 
