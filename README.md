@@ -102,7 +102,8 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 
 ### **Slovak initiatives** 🇸🇰 : 
 * **[KInit](https://github.com/kinit-sk)** - [https://www.linkedin.com/in/juraj-bezdek-6b521346/](https://www.linkedin.com/in/juraj-bezdek-6b521346/)
-* **[Blip.solution](https://www.blip.solutions/contact)** - Contact:[juraj.bezdek@blip.solutions](mailto:juraj.bezdek@blip.solutions) 
+* **[Blip.solution](https://www.blip.solutions/contact)** - Contact:[juraj.bezdek@blip.solutions](mailto:juraj.bezdek@blip.solutions)
+  
   
 ### **Slovenian initiatives** 🇸🇮 : 
 * **[SloBERTa](https://huggingface.co/EMBEDDIA/sloberta)** - Contact:[info@embeddia.eu](mailto:info@embeddia.eu)
@@ -116,10 +117,13 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[AI Sweden](https://www.ai.se/en)** - Contact:[johanna.bergman@ai.se](mailto:johanna.bergman@ai.se)
 * **[Satisfied](https://www.statisfied.io/)** - Discord: <https://discord.gg/statisfied> - Contact:[info@statisfied.io](mailto:info@statisfied.io)
 
-### **European projects** 🇪🇺 :
+
+# Multilingual Open Source project
+* **[HPLT](https://hplt-project.org/)** - Contact:[andreku@ifi.uio.no](mailto:andreku@ifi.uio.no)
+* **[Unbabel](https://unbabel.com/fr/research/unbabel4eu/)** - Contact:[https://communityonboarding.unbabel.com/signup/step/0](https://communityonboarding.unbabel.com/signup/step/0)
+* **[Occiglot](https://occiglot.github.io/occiglot/posts/occiglot-announcement/?s=09) - Contact:[brack.cs.tu-darmstadt.de](mailto:brack.cs.tu-darmstadt.de)
 * **[TrustLLM](https://trustllm.eu/partners/)** - Contact:[trine.platou@liu.se](mailto:trine.platou@liu.se)
 * **[Luxembourg Institute of Science and technology](https://www.list.lu/en/environment/research-groups/group/trustworthy-ai/)** - Luxembourg 🇱🇺 - Contact:[jordi.cabot@list.lu](mailto:jordi.cabot@list.lu)
-
 
 # Open Source LLM projects based outside of Europe 
 
