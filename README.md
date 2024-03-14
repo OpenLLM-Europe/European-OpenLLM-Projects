@@ -121,7 +121,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 # Multilingual Open Source project
 * **[HPLT](https://hplt-project.org/)** - Contact:[andreku@ifi.uio.no](mailto:andreku@ifi.uio.no)
 * **[Unbabel](https://unbabel.com/fr/research/unbabel4eu/)** - Contact:[https://communityonboarding.unbabel.com/signup/step/0](https://communityonboarding.unbabel.com/signup/step/0)
-* **[Occiglot](https://occiglot.github.io/occiglot/posts/occiglot-announcement/?s=09) - Contact:[brack.cs.tu-darmstadt.de](mailto:brack.cs.tu-darmstadt.de)
+* **[Occiglot](https://occiglot.github.io/occiglot/posts/occiglot-announcement/?s=09)** - Contact:[brack.cs.tu-darmstadt.de](mailto:brack.cs.tu-darmstadt.de)
 * **[TrustLLM](https://trustllm.eu/partners/)** - Contact:[trine.platou@liu.se](mailto:trine.platou@liu.se)
 * **[Luxembourg Institute of Science and technology](https://www.list.lu/en/environment/research-groups/group/trustworthy-ai/)** - Luxembourg 🇱🇺 - Contact:[jordi.cabot@list.lu](mailto:jordi.cabot@list.lu)
 
