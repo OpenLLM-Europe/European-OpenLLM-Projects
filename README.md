@@ -58,7 +58,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 ### **French initiatives** 🇫🇷 :
 * **[Le Bon LLM](https://www.lebonllm.fr/)** - [https://www.linkedin.com/company/le-bon-llm/](https://www.linkedin.com/company/le-bon-llm/)
 * **[OpenLLM France](https://www.openllm-france.fr/)** - Contact:[contact@openllm-france.fr](mailto:contact@openllm-france.fr) - [https://www.openllm-france.fr](https://www.openllm-france.fr)
-* **[Jita](https://nijta.com/fr/)** - Contact:[contact@nijta.com](mailto:contact@nijta.com) 
+
 
 ### **German initiatives** 🇩🇪 :
 * **[LAION](https://laion.ai/)** - Discord: <https://discord.com/invite/laion> - Contact: [contact@laion.ai](mailto:contact@laion.ai)
@@ -92,8 +92,8 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 ### **Polish initiatives** 🇵🇱 : 
 * **[Polbert](https://huggingface.co/dkleczek)** - Contact:[darek@wandb.com](mailto:darek@wandb.com)
 
-### **Portuguses initiavtives** 🇵🇹 : 
-* **[Unbabel](https://unbabel.com/fr/research/unbabel4eu/)** - Discord: <https://discord.gg/unbabel> - [https://communityonboarding.unbabel.com/signup/step/0](https://communityonboarding.unbabel.com/signup/step/0)
+### **Portuguese initiavtives** 🇵🇹 : 
+* **[Sabia](https://arxiv.org/abs/2304.07880)** - Contact:[ramon@maritaca.ai](mailto:ramon@maritaca.ai) 
 
 ### **Romanian initiatives** 🇷🇴 : 
 * **[LLM for Romanian](https://ilds.ro/llm-for-romanian/)** - Contact:[contact@ilds.ro](mailto:contact@ilds.ro)
