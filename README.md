@@ -122,7 +122,7 @@ Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)**
 * **[Satisfied](https://www.statisfied.io/)** - Discord: <https://discord.gg/statisfied> - Contact:[info@statisfied.io](mailto:info@statisfied.io)
 
 
-# Multilingual Open Source project 🌍
+# Multilingual European Open Source project 🌍
 
 * **[HPLT](https://hplt-project.org/)** - Contact:[andreku@ifi.uio.no](mailto:andreku@ifi.uio.no)
 * **[Unbabel](https://unbabel.com/fr/research/unbabel4eu/)** - Contact:[https://communityonboarding.unbabel.com/signup/step/0](https://communityonboarding.unbabel.com/signup/step/0)
