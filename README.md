@@ -24,7 +24,7 @@ Here is a **list of Open Source projects in AI (mostly LLMs)** that we have gath
 
 Feel free to use it to build great things together.
 Feel free to amen it and add projects that we missed. PR are welcome !
-Feel free to join our **[Discord server](https://discord.com/invite/b5UQTWQn)** 
+Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)** 
 
 ---
 
