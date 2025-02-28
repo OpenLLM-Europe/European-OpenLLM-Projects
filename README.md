@@ -1,9 +1,5 @@
 # European OpenLLM Projects
 
-![One LLM to free them all](https://64.media.tumblr.com/d586d1cc83306a8a2948cd5b6f42c81b/tumblr_inline_p7g0lzVRSN1roj9wu_500.gif)
-
-### **One LLM to free them all ;-)**
-
 Did you know that English tokens represent **more than 90 %** of generalist LLMs training data ? 
 
 We’re **OpenLLM Europe 🇪🇺**, an Open Source community committed to empower **LLM projects in all European languages**, specifically medium and low-resource languages. We aim to build the first **multimodal multilingual european model** with partners all over the continent.
