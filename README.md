@@ -128,7 +128,8 @@ Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)**
 * **[Sosnitskij](https://huggingface.co/Sosnitskij)** - [https://www.linkedin.com/in/said-azizov-6b5a82256/](https://www.linkedin.com/in/said-azizov-6b5a82256/) 
 * **[Evidently AI](https://www.evidentlyai.com/community)** - Multilingual 🌍 - Discord: <https://discord.gg/evidentlyai> - Contact:[hello@evidentlyai.com](mailto:hello@evidentlyai.com)
 * **[YugoGPT](https://www.yugochat.com/fr/)** - 🇷🇸🇭🇷🇧🇦🇲🇰🇽🇰 - Discord: <https://discord.gg/yugogpt> - [https://www.linkedin.com/in/aleksagordic/](https://www.linkedin.com/in/aleksagordic/)
-  
+* **[OpenEuroLLM](https://openeurollm.eu/)** - Contact:Jan Hajič
+* **[LLMs4EU](https://www.alt-edic.eu/projects/llms4eu/)** - Contact:Edouard Geoffrois
 # Open Source LLM projects based outside of Europe 
 
 * **[LangFuse](https://langfuse.com/)** US project using european languages 🇺🇸 - Contact:[hi@langfuse.com](mailto:hi@langfuse.com)
