@@ -5,7 +5,7 @@ Did you know that English tokens represent **more than 90 %** of generalist LLM
 We’re **OpenLLM Europe 🇪🇺**, an Open Source community committed to empower **LLM projects in all European languages**, specifically medium and low-resource languages. We aim to build the first **multimodal multilingual european model** with partners all over the continent.
 
 * **[OpenLLM-Europe](https://github.com/OpenLLM-Europe)** 🇪🇺
-* Discord: <https://discord.com/invite/b5UQTWQn>
+* Discord: <https://discord.gg/8cHZ6NVwxd>
 * Contact:[contact@openllm-europe.org](mailto:contact@openllm-europe.org) - https://github.com/OpenLLM-Europe
 
 Our work is 100% open and fits in with ALT-EDIC's mission, which you can discover here: https://language-data-space.ec.europa.eu/related-initiatives/alt-edic_en
