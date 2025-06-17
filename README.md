@@ -90,6 +90,7 @@ Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)**
 
 ### **Polish initiatives** 🇵🇱 : 
 * **[Polbert](https://huggingface.co/dkleczek)** - Contact:[darek@wandb.com](mailto:darek@wandb.com)
+* **[Bielik](https://speakleash.org/)** - Contact:[https://www.linkedin.com/in/sebastian-kondracki/](https://www.linkedin.com/in/sebastian-kondracki/)
 
 ### **Portuguese initiavtives** 🇵🇹 : 
 * **[Sabia](https://arxiv.org/abs/2304.07880)** - Contact:[ramon@maritaca.ai](mailto:ramon@maritaca.ai) 
