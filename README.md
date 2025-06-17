@@ -38,7 +38,7 @@ Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)**
 * **[Danish foundation models](https://huggingface.co/danish-foundation-models/munin-7b-alpha)** - [https://www.linkedin.com/in/saattrupdan/](https://www.linkedin.com/in/saattrupdan/)
 * **[Danskgpt](https://www.danskgpt.dk/)** - Contact:[vasu.sharma@recursionpharma.com](mailto:vasu.sharma@recursionpharma.com) 
 
-### **Duch initiatives** 🇳🇱 : 
+### **Dutch initiatives** 🇳🇱 : 
 * **[Going Dutch](https://goingdutch.ai/en/posts/introducing-geitje/)** - Contact:[edwin@edwinrijgersberg.nl](mailto:edwin@edwinrijgersberg.nl) 
 
 ### **English initiatives** 🇬🇧 : 
