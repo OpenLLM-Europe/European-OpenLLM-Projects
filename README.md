@@ -63,6 +63,9 @@ Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)**
 
 ### **Greek initiatives** 🇬🇷 : 
 * **[GFOSS](https://gfoss.eu/)** - Contact:[info@eellak.gr](mailto:info@eellak.gr)
+* **[Meltemi](https://huggingface.co/collections/ilsp/meltemi-7b-682731cced6c20f2dc1b725c)** - Contact: [Institute for Language and Speech Processing / Athena RC LinkedIn](https://www.linkedin.com/company/ilsp-athenarc)
+* **[Krikri](https://huggingface.co/collections/ilsp/krikri-8b-68273283651ba864d44fc33a)** - Contact: [Institute for Language and Speech Processing / Athena RC LinkedIn](https://www.linkedin.com/company/ilsp-athenarc)
+* **[LLM Evaluation suite for Greek](https://huggingface.co/collections/ilsp/ilsp-greek-evaluation-suite-6827304d5bf8b70d0346b02c)** - Contact: [Institute for Language and Speech Processing / Athena RC LinkedIn](https://www.linkedin.com/company/ilsp-athenarc)
 
 ### **Hungarian initiatives** 🇭🇺 : 
 * **[Hilanco](https://hilanco.github.io/home.html)** - Contact:[tavaradi@gmail.com](mailto:tavaradi@gmail.com)
