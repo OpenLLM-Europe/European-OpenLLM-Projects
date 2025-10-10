@@ -80,7 +80,6 @@ Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)**
 
 ### **Lithuanian initiatives** 🇱🇹 : 
 * **[EMBEDDIA](http://embeddia.eu/)** - Contact:[info@embeddia.eu](mailto:info@embeddia.eu)
-* **[Tilde AI powered langage technologies](https://www.tilde.com/)** - Contact:[https://www.linkedin.com/in/andrejs-vasiljevs/](mailto:https://www.linkedin.com/in/andrejs-vasiljevs/) 
 
 ### **Maltese initiatives** 🇲🇹 : 
 * **[BERTu](https://github.com/MLRS/BERTu)** - [https://www.linkedin.com/in/claudia-borg-ai/](https://www.linkedin.com/in/claudia-borg-ai/)
@@ -131,6 +130,8 @@ Feel free to join our **[Discord server](https://discord.gg/8cHZ6NVwxd)**
 * **[YugoGPT](https://www.yugochat.com/fr/)** - 🇷🇸🇭🇷🇧🇦🇲🇰🇽🇰 - Discord: <https://discord.gg/yugogpt> - [https://www.linkedin.com/in/aleksagordic/](https://www.linkedin.com/in/aleksagordic/)
 * **[OpenEuroLLM](https://openeurollm.eu/)** - Contact:Jan Hajič
 * **[LLMs4EU](https://www.alt-edic.eu/projects/llms4eu/)** - Contact:Edouard Geoffrois
+* **[TildeOpen LLM: Europe’s Sovereign Multilingual AI](https://tilde.ai/tildeopen-llm/)** - Contact: [Sales](https://tilde.ai/contact-us/), [Hugging Face](https://huggingface.co/TildeAI)
+
 # Open Source LLM projects based outside of Europe 
 
 * **[LangFuse](https://langfuse.com/)** US project using european languages 🇺🇸 - Contact:[hi@langfuse.com](mailto:hi@langfuse.com)
