@@ -1,6 +1,6 @@
 # European Open Source LLM Projects :eu:
 
-We're **OpenLLM France** :fr::eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages.
+We're **OpenLLM Europe** :eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages.
 
 - Website: <https://openllm-france.fr/>
 - Discord: <https://discord.gg/8cHZ6NVwxd>
