@@ -66,12 +66,15 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | Project | Country / origin | Focus | License | Latest activity | Links |
 | --- | --- | --- | --- | --- | --- |
 | **AI Sweden** | :sweden: Sweden | GPT-SW3, Nordic models | mixed | Institutional programme, ongoing | [ai.se](https://www.ai.se/en) |
+| **Beia Consult International** | :ro: Romania | Romanian speech and NLP, ASR, TTS and chatbots, inside EU research projects | mixed | R&D SME, active across FP7, H2020 and Horizon Europe projects | [beia.ro](https://beia.ro/), [EU projects](https://beiaro.eu/) |
+| **Blip.solutions** | :slovakia: Slovakia | Open-source LLM tooling, langchain-decorators and prompt tracing | MIT | langchain-decorators still updated 04/2026 | [blip.solutions](https://www.blip.solutions/), [GitHub](https://github.com/ju-bezdek/langchain-decorators) |
 | **Claire family** (OpenLLM France) | :fr: France | French conversational | Apache 2.0 | 2023-2024 (predecessor to Lucie/Luciole) | [HF](https://huggingface.co/OpenLLM-France) |
 | **CroAI** | :croatia: Croatia | Croatian AI community | open | Active community | [croai.org](https://www.croai.org/) |
 | **Croissant LLM** (CentraleSupélec + Illuin) | :fr: France | fr-en bilingual, small model | open | Reference 1.3B bilingual model | [HF](https://huggingface.co/croissantllm) |
 | **Danish Foundation Models** (Munin family) | :denmark: Denmark | Danish | open | Munin 7B alpha 2024, continued in 2025 | [HF](https://huggingface.co/danish-foundation-models) |
 | **DanskGPT** | :denmark: Denmark | Danish assistant | mixed | Public 2024-2025 | [danskgpt.dk](https://www.danskgpt.dk/) |
 | **EMBEDDIA / SloBERTa** | :lithuania: Lithuania / :slovenia: Slovenia | Baltic and Slavic | open (research) | Historical family, still used | [embeddia.eu](http://embeddia.eu/) |
+| **Expert AI** | :it: Italy | Hybrid neuro-symbolic NLP, knowledge graphs combined with LLMs | mixed | Active commercial + research | [expert.ai](https://www.expert.ai/) |
 | **Fauno Italian LLM** (Sapienza) | :it: Italy | Italian | open | Reference release 2023-2024 | [GitHub](https://github.com/RSTLess-research/Fauno-Italian-LLM) |
 | **Going Dutch, GEITje** | :netherlands: Netherlands | Dutch | open | Community-maintained | [Blog](https://goingdutch.ai/en/posts/introducing-geitje/) |
 | **Hilanco** | :hungary: Hungary | Hungarian | open | Community project | [hilanco.github.io](https://hilanco.github.io/home.html) |
@@ -82,6 +85,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | **Llama-Krikri** (ILSP, Athena Research Center) | :greece: Greece | Greek LLMs and Greek evaluation suite | Llama 3.1 | Krikri 8B Instruct updated 12/2025, Greek evaluation datasets updated 2026 | [Krikri collection](https://huggingface.co/collections/ilsp/krikri-8b-68273283651ba864d44fc33a), [Greek evaluation suite](https://huggingface.co/collections/ilsp/ilsp-greek-evaluation-suite-6827304d5bf8b70d0346b02c), [ILSP on HF](https://huggingface.co/ilsp) |
 | **LLM for Romanian (ILDS)** | :ro: Romania | Romanian | open (research) | Active 2024-2025 | [ilds.ro](https://ilds.ro/llm-for-romanian/) |
 | **NLP Odyssey** | :it: Italy | NLP libs and models | open | Active OpenCollective | [OpenCollective](https://opencollective.com/nlpodyssey) |
+| **Nordavind, nordic-ner** (Tollef Jørgensen, NTNU and Sikt) | :norway: Norway | Norwegian and Nordic fine-tunes, NER and evaluation datasets | open | Nordavind Llama 3.1 8B 02/2025, Nordic NER and Norwegian STS datasets | [HF](https://huggingface.co/tollefj), [Norwegian LLMs collection](https://huggingface.co/collections/tollefj/norwegian-llms) |
 | **NOUS Research** | :gb: United Kingdom | Instruction & alignment | mixed open | Regular releases in 2025-2026 | [HF](https://huggingface.co/NousResearch) |
 | **PORO / Viking / Europa** (ex-Silo AI, now AMD) | :fi: Finland / International | Nordic + multilingual | Apache 2.0 | Models still openly available, roadmap now under AMD | [Announcement](https://www.silo.ai/blog/poro-a-family-of-open-models-that-bring-european-languages-to-the-frontier) |
 | **SiloGen platform** (AMD, ex-Silo AI) | :fi: Finland (AMD) | Enterprise LLM ops | mixed | Post-acquisition 2024+ | See section 4 |
@@ -110,7 +114,7 @@ First-generation BERT-family models and early monolingual encoders. Based on pub
 | **SloBERTa** | sl | :slovenia: Slovenia | [HF](https://huggingface.co/EMBEDDIA/sloberta) |
 | **YugoGPT** | Serbo-Croatian family | :serbia: Serbia, :croatia: Croatia, :bosnia_herzegovina: Bosnia and Herzegovina, :macedonia: North Macedonia, :kosovo: Kosovo | [yugochat.com](https://www.yugochat.com/) |
 
-> Adjacent, non-European projects (LangFuse, Sayhan and Sestek, AI Forever, Yandex YaLM, EleutherAI) previously listed at repo level are no longer catalogued here. They are excellent references but out of scope for a European catalogue.
+> Adjacent, non-European projects (LangFuse, Sayhan and Sestek, AI Forever, Yandex YaLM, Evidently AI, EleutherAI) previously listed at repo level are no longer catalogued here. They are excellent references but out of scope for a European catalogue. Two further entries were dropped rather than archived: **Statisfied**, whose site no longer resolves, and **Sosnitskij**, a Hugging Face account republishing quantised Russian models with no activity since 02/2024.
 
 ---
 
@@ -144,6 +148,7 @@ The following organisations are **not models** but structure the European open-s
 | **EuroHPC JU** | European supercomputing joint undertaking (LUMI, Leonardo, JUWELS, MareNostrum 5, Jupiter, Alice Recoque) | [eurohpc-ju.europa.eu](https://eurohpc-ju.europa.eu/) |
 | **Fraunhofer IAIS** | Coordinator of OpenGPT-X, TrustLLM, Eurolingua | [iais.fraunhofer.de](https://www.iais.fraunhofer.de/en.html) |
 | **GENCI + Jules Verne consortium** | French national HPC, hosting Jean Zay, leading the **Alice Recoque** Exascale system for EuroHPC | [genci.fr](https://www.genci.fr) |
+| **GFOSS, Open Technologies Alliance** | Greek non-profit backed by 38 universities and research centres, runs GlossAPI to strengthen Greek in NLP | [gfoss.eu](https://gfoss.eu/), [GitHub](https://github.com/eellak) |
 | **LLMs4EU** | Flagship ALT-EDIC project | [ALT-EDIC, LLMs4EU](https://www.alt-edic.eu/projects/llms4eu/) |
 | **Luxembourg Institute of Science and Technology (LIST), Trustworthy AI group** | Research on trustworthy AI at EU level | [list.lu](https://www.list.lu/en/environment/research-groups/group/trustworthy-ai/) |
 | **Open Source Initiative (OSI)** | Maintains the **Open Source AI Definition (OSAID)** | [opensource.org](https://opensource.org/) |
