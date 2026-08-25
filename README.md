@@ -44,6 +44,7 @@ Openly licensed foundation LLMs trained from scratch in Europe (or by European t
 | **Pleias 1.0** (Pleias) | 350M, 1.2B, 3B | multilingual, trained on Common Corpus only | Apache 2.0 | 12/2024 | France | [pleias.ai](https://pleias.ai/research), [HF](https://huggingface.co/PleIAs), [Overview](https://simonwillison.net/2024/Dec/5/pleias-llms/) |
 | **Salamandra / ALIA** (BSC, Projecte Aina) | 2B, 7B, 40B | ca, es, gl, eu + EU | Apache 2.0 | 2024-2025 | Spain | [Salamandra family](https://projecteaina.cat/tech/en/introducing-the-salamandra-family-of-models/), [HF](https://huggingface.co/projecte-aina) |
 | **Teuken-7B** (OpenGPT-X / Fraunhofer IAIS / Jülich) | 7B | 24 EU official languages | Apache 2.0 | v0.6, late 2025 | Germany / EU | [Press release](https://www.iais.fraunhofer.de/en/press-events/press-releases/press-release-241126.html), [HF](https://huggingface.co/openGPT-X) |
+| **TildeOpen LLM** (Tilde) | 30B, plus a 64k-context variant | 34 European languages, Baltic and Eastern European focus | CC-BY-4.0 | 30B: 09/2025, integrated into Tilde MT 02/2026 | Latvia | [tilde.ai](https://tilde.ai/tildeopen-llm/), [HF](https://huggingface.co/TildeAI/TildeOpen-30b) |
 
 ### Speech, multimodal and agent foundation models
 
@@ -83,7 +84,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | **PORO / Viking / Europa** (ex-Silo AI, now AMD) | :fi: Finland / International | Nordic + multilingual | Apache 2.0 | Models still openly available, roadmap now under AMD | [Announcement](https://www.silo.ai/blog/poro-a-family-of-open-models-that-bring-european-languages-to-the-frontier) |
 | **SiloGen platform** (AMD, ex-Silo AI) | :fi: Finland (AMD) | Enterprise LLM ops | mixed | Post-acquisition 2024+ | See section 4 |
 | **TartuNLP** | :estonia: Estonia | Estonian NLP, translation | open | Continuously maintained | [tartunlp.ai](https://tartunlp.ai/) |
-| **Tilde AI** | :latvia: Latvia / :lithuania: Lithuania | Baltic MT, LLM services | mixed | Active commercial + research | [tilde.com](https://www.tilde.com/) |
+| **Tilde AI** | :latvia: Latvia | Baltic MT and LLM services, publisher of TildeOpen LLM (see section 1) | mixed | Active commercial + research | [tilde.com](https://www.tilde.com/) |
 
 ---
 
