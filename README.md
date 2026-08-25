@@ -1,11 +1,13 @@
 # European Open Source LLM Projects :eu:
 
-We're **OpenLLM Europe** :eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages.
+We're **OpenLLM Europe** :eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages. Our working language is English.
 
-- Website: <https://openllm-france.fr/>
-- Discord: <https://discord.gg/8cHZ6NVwxd>
-- GitHub: <https://github.com/OpenLLM-France>
-- Contact: <contact@openllm-france.org>
+- Discord: <https://discord.gg/8cHZ6NVwxd>, shared with OpenLLM France, see the note below
+- GitHub: <https://github.com/OpenLLM-Europe>
+- Contact: <contact@openllm-europe.org>
+- OpenLLM France, the community we grew out of: <https://openllm-france.fr/>
+
+> **About that Discord invite.** OpenLLM Europe started inside OpenLLM France and still shares its Discord server, so the invite opens a server named *OpenLLM France* and many of its channels are in French. That is lineage, not policy. European discussions and this catalogue run in English, so open your thread in English wherever you land, and say so if a French-only conversation is in your way.
 
 This repository maintains a **curated, living catalogue** of European open-source LLM projects, models, datasets, and initiatives. It is intentionally opinionated: projects are grouped by role in the ecosystem rather than by nationality alone, and inactive artefacts are archived rather than deleted, so the map stays honest.
 
