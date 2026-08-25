@@ -53,7 +53,7 @@ Openly licensed foundation LLMs trained from scratch in Europe (or by European t
 | **Alfred Sovereign v5** (LightOn) | text (RAG-oriented) | open weights + Paradigm platform | Alfred-sv5 (24B), 2025-2026 | :fr: France | [LightOn docs](https://docs.lighton.ai/en/developer-resources/lighton-models/alfred-sv5) |
 | **Holo-1 / Surfer H** (H Company) | vision-language action model (web agents) | Apache 2.0 (open weights) | Holo-1 3B and 7B, 06/2025, Holo 3 in 2026 | :fr: France | [hcompany.ai](https://hcompany.ai/), [Surfer H CLI](https://github.com/hcompai/surfer-h-cli) |
 | **Moshi / Moshika** (Kyutai) | full-duplex speech-to-speech | code MIT + Apache 2.0, weights CC-BY 4.0 | Public release 09/2024, TTS 1.6B and Unmute in 2026 | :fr: France | [kyutai.org](https://kyutai.org/), [GitHub](https://github.com/kyutai-labs/moshi) |
-| **Voxtral** (Mistral AI) | speech understanding + TTS + transcription (3B, 4B, 24B) | multilingual (up to 13 languages) | Apache 2.0 (understanding, Realtime), CC-BY-NC 4.0 (TTS) | Voxtral 07/2025, Transcribe 2 02/2026, TTS 03/2026 | :fr: France | [mistral.ai](https://mistral.ai/news/voxtral/), [Transcribe 2](https://mistral.ai/news/voxtral-transcribe-2/), [TTS](https://mistral.ai/news/voxtral-tts/) |
+| **Voxtral** (Mistral AI) | speech understanding + TTS + transcription (3B, 4B, 24B), multilingual up to 13 languages | Apache 2.0 (understanding, Realtime), CC-BY-NC 4.0 (TTS) | Voxtral 07/2025, Transcribe 2 02/2026, TTS 03/2026 | :fr: France | [mistral.ai](https://mistral.ai/news/voxtral/), [Transcribe 2](https://mistral.ai/news/voxtral-transcribe-2/), [TTS](https://mistral.ai/news/voxtral-tts/) |
 
 ---
 
