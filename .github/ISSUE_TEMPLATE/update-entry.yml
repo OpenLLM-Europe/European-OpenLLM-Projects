@@ -1,0 +1,40 @@
+name: Update or fix an existing entry
+description: Report a stale release date, a dead link, or a project whose status has changed.
+title: "Update: "
+labels: ["update"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: Teuken-7B (OpenGPT-X / Fraunhofer IAIS / Jülich)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What needs changing?
+      options:
+        - The "Latest release" or "Latest activity" column is out of date
+        - A link is dead or points to the wrong place
+        - The project should move to another section (inactive, acquired, superseded)
+        - Something in the row is factually wrong
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: change
+    attributes:
+      label: What should it say instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A Hugging Face page, repository, paper or official announcement that backs the change.
+    validations:
+      required: true

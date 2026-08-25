@@ -1,0 +1,23 @@
+name: Catalogue checks
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - ".github/scripts/check_tables.py"
+      - ".github/workflows/catalogue-checks.yml"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  tables:
+    name: Table structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check that every row matches its table header
+        run: python3 .github/scripts/check_tables.py README.md

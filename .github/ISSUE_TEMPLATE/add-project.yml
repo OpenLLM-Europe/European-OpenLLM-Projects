@@ -1,0 +1,104 @@
+name: Add a project to the catalogue
+description: Suggest a European open-source LLM project, model, dataset or organisation. No git required.
+title: "Add: "
+labels: ["new entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the catalogue alive.
+
+        Fill in what you know and leave the rest blank, a maintainer will turn
+        this into a catalogue row. If you would rather send the row yourself,
+        the README has a copy-paste template for each section.
+
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: The name as you would like it to appear, plus the organisation behind it.
+      placeholder: Llama-Krikri (ILSP, Athena Research Center)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section does it belong to?
+      description: If you are unsure, pick your best guess and say why in the notes.
+      options:
+        - 1. Foundation models, European frontier
+        - 2. National and community LLMs (active)
+        - 3. Archives and historical models
+        - 4. Reoriented or acquired projects
+        - Ecosystem organisations and infrastructures
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: origin
+    attributes:
+      label: Country or origin
+      placeholder: Greece
+    validations:
+      required: true
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages covered
+      placeholder: el, en
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Apache 2.0, CC-BY-4.0, a custom model license, or "mixed" for a commercial project with some open artefacts.
+      placeholder: Apache 2.0
+
+  - type: input
+    id: latest
+    attributes:
+      label: Latest release or activity
+      description: A date we can point to, not "actively maintained".
+      placeholder: 8B Instruct, 12/2025
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links and evidence
+      description: |
+        At least one public artefact: a Hugging Face model or dataset card, a
+        repository, a paper, or an official announcement. This is what makes
+        the entry verifiable.
+      placeholder: |
+        https://huggingface.co/ilsp
+        https://arxiv.org/abs/2407.20743
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Public contact (optional)
+      description: A mailing list, contact form or LinkedIn page. Please do not post someone's personal email without their consent.
+      placeholder: https://www.linkedin.com/company/example
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Why this belongs in the catalogue, or which existing entry it relates to.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: The project has a public artefact (model card, dataset card, repository or paper), not just a website.
+          required: true
+        - label: It is European, or run by a European team. Adjacent non-European projects are out of scope.
+          required: true
+        - label: Any contact I listed is already public, and I am not adding someone's personal email without their consent.
+          required: true
