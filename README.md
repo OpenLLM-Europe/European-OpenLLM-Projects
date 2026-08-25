@@ -9,6 +9,8 @@ We're **OpenLLM France** :fr::eu:, an Open Source community committed to empower
 
 This repository maintains a **curated, living catalogue** of European open-source LLM projects, models, datasets, and initiatives. It is intentionally opinionated: projects are grouped by role in the ecosystem rather than by nationality alone, and inactive artefacts are archived rather than deleted, so the map stays honest.
 
+> **Your project is missing?** Adding it takes two minutes and no git: open the [Add a project form](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=add-project.yml) and we turn it into a catalogue row. Prefer a pull request? Copy the [row template](#row-templates) for the right section. Spotted a stale date or a dead link? [Tell us](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=update-entry.yml).
+
 ---
 
 ## How to read this catalogue
@@ -153,16 +155,103 @@ The following organisations are **not models** but structure the European open-s
 
 ## How to contribute
 
-We welcome PRs that:
+Two ways in, pick whichever suits you.
+
+**1. Open an issue, no git needed.** Fill the [Add a project form](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=add-project.yml) and a maintainer turns it into a catalogue row. Use the [update form](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=update-entry.yml) for a stale date, a dead link, or a project whose status has changed. This is the recommended path if pull requests are not your daily tool.
+
+**2. Send a pull request.** Copy the [row template](#row-templates) for the right section, fill it in, open the pull request.
+
+### What we accept
 
 - Add a **missing European open-source project** with a public artefact (model card, dataset card, or repository).
 - **Update the "Latest release" column** with an evidence link (Hugging Face, GitHub, arXiv, or an official press release).
 - **Move a project** across sections when its status changes, for example from section 2 to section 3 when a project becomes inactive, or from section 1 to section 4 after an acquisition.
 - Add or fix links.
 
-Please keep entries **short, evidence-based, and honest**. This catalogue is designed to help European teams find each other and build together, not to advertise vapourware. When in doubt, open an issue first.
+### House rules
 
-Every listed contact is an existing public contact for the project (mailing list, contact form, LinkedIn). Please do not add personal emails without the person's consent.
+- **One project per pull request.** The whole catalogue lives in a single file, so small pull requests are what keeps contributors from conflicting with each other.
+- **Rows are sorted alphabetically** inside each table. Insert yours in the right place rather than at the end.
+- **Touch your row and nothing else.** No reformatting, no reflowing the rest of the table.
+- **Match the column count of the section you are editing.** The six tables do not share the same columns, and a row copied from another section renders broken. A check runs on every pull request to catch this.
+- Keep entries **short, evidence-based, and honest**. This catalogue is designed to help European teams find each other and build together, not to advertise vapourware. When in doubt, open an issue first.
+- Every listed contact must be an **existing public contact** for the project (mailing list, contact form, LinkedIn). Please do not add personal emails without the person's consent.
+
+### Row templates
+
+Copy the block for your section, replace the placeholders, and paste your single row into the table. The header and separator lines are shown so you can see the shape, do not paste them.
+
+<details>
+<summary><b>1. Foundation models, European frontier</b> &mdash; 7 columns</summary>
+
+```markdown
+| Model / family | Sizes | Languages | License | Latest release | Origin | Links |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Model name** (organisation) | 7B, 70B | fr, en + EU | Apache 2.0 | MM/YYYY | Country | [site](https://example.org), [HF](https://huggingface.co/example) |
+```
+
+</details>
+
+<details>
+<summary><b>Speech, multimodal and agent foundation models</b> &mdash; 6 columns</summary>
+
+```markdown
+| Model | Modalities | License | Latest release | Origin | Links |
+| --- | --- | --- | --- | --- | --- |
+| **Model name** (organisation) | speech-to-speech, 7B | Apache 2.0 | MM/YYYY | :eu: Country | [site](https://example.org), [HF](https://huggingface.co/example) |
+```
+
+</details>
+
+<details>
+<summary><b>2. National and community LLMs (active)</b> &mdash; 6 columns</summary>
+
+```markdown
+| Project | Country / origin | Focus | License | Latest activity | Links |
+| --- | --- | --- | --- | --- | --- |
+| **Project name** (organisation) | :eu: Country | What it works on | Apache 2.0 | What shipped and when | [site](https://example.org), [HF](https://huggingface.co/example) |
+```
+
+</details>
+
+<details>
+<summary><b>3. Archives and historical models</b> &mdash; 4 columns</summary>
+
+```markdown
+| Model | Language | Origin | Links |
+| --- | --- | --- | --- |
+| **Model name** (organisation) | xx | :eu: Country | [HF](https://huggingface.co/example) - one line of lineage, what superseded it |
+```
+
+</details>
+
+<details>
+<summary><b>4. Reoriented or acquired projects</b> &mdash; 4 columns</summary>
+
+```markdown
+| Project | Status | What happened | Links |
+| --- | --- | --- | --- |
+| **Project name** | Acquired / Superseded / Reoriented | One sentence, with the date | [announcement](https://example.org) |
+```
+
+</details>
+
+<details>
+<summary><b>Ecosystem organisations and infrastructures</b> &mdash; 3 columns</summary>
+
+```markdown
+| Organisation | Role | Links |
+| --- | --- | --- |
+| **Organisation name** | What it does for the ecosystem | [site](https://example.org) |
+```
+
+</details>
+
+Before opening the pull request you can run the same check as CI:
+
+```bash
+python3 .github/scripts/check_tables.py README.md
+```
 
 ## License
 
