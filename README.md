@@ -76,6 +76,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | **KInit** | :slovakia: Slovakia | Slovak NLP | open (research) | Active on GitHub | [github.com/kinit-sk](https://github.com/kinit-sk) |
 | **LAION** | :de: Germany / International | Open datasets and multimodal | open | Continuously active | [laion.ai](https://laion.ai/) |
 | **Le Bon LLM** | :fr: France | French community | open | Community initiative | [lebonllm.fr](https://www.lebonllm.fr/) |
+| **Llama-Krikri** (ILSP, Athena Research Center) | :greece: Greece | Greek LLMs and Greek evaluation suite | Llama 3.1 | Krikri 8B Instruct updated 12/2025, Greek evaluation datasets updated 2026 | [Krikri collection](https://huggingface.co/collections/ilsp/krikri-8b-68273283651ba864d44fc33a), [Greek evaluation suite](https://huggingface.co/collections/ilsp/ilsp-greek-evaluation-suite-6827304d5bf8b70d0346b02c), [ILSP on HF](https://huggingface.co/ilsp) |
 | **LLM for Romanian (ILDS)** | :ro: Romania | Romanian | open (research) | Active 2024-2025 | [ilds.ro](https://ilds.ro/llm-for-romanian/) |
 | **NLP Odyssey** | :it: Italy | NLP libs and models | open | Active OpenCollective | [OpenCollective](https://opencollective.com/nlpodyssey) |
 | **NOUS Research** | :gb: United Kingdom | Instruction & alignment | mixed open | Regular releases in 2025-2026 | [HF](https://huggingface.co/NousResearch) |
@@ -99,6 +100,7 @@ First-generation BERT-family models and early monolingual encoders. Based on pub
 | **Insait, original BgGPT** (pre-Gemma 2) | bg | :bulgaria: Bulgaria | [Launch post](https://bggpt.ai/blog/2024-02-18-launching-the-first-free-and-open-bulgarian-llm/) |
 | **Lucie-7B / Lucie-7B-Instruct** (OpenLLM France) | multilingual, fr-first | :fr: France | [Paper](https://arxiv.org/abs/2503.12294), succeeded by Luciole in 2026 |
 | **LVBERT** | lv | :latvia: Latvia | [GitHub](https://github.com/LUMII-AILab/LVBERT) |
+| **Meltemi-7B** (ILSP, Athena Research Center) | el | :greece: Greece | [Meltemi collection](https://huggingface.co/collections/ilsp/meltemi-7b-682731cced6c20f2dc1b725c), [Paper](https://arxiv.org/abs/2407.20743) - first open LLM for Greek (Mistral-based, 2024), succeeded by Llama-Krikri |
 | **Polbert** | pl | :poland: Poland | [HF](https://huggingface.co/dkleczek) |
 | **Sabia** | pt-br | :portugal: Portugal | [Paper](https://arxiv.org/abs/2304.07880) |
 | **Serbian LLM eval** | sr | :serbia: Serbia | [GitHub](https://github.com/gordicaleksa/serbian-llm-eval) |
