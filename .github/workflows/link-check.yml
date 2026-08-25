@@ -1,0 +1,43 @@
+name: Link check
+
+# The catalogue is a list of links, so link rot is its main way of going stale.
+# This runs on a schedule rather than on pull requests: some project sites
+# answer 403 to automated clients, and a contributor adding one good row should
+# never be blocked by an unrelated dead link somewhere else in the file.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    name: Find dead links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 2
+            --timeout 20
+            --accept 200,206,403,429
+            README.md
+          output: ./lychee/out.md
+          fail: false
+
+      - name: Open or update the dead links issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Dead links in the catalogue
+          content-filepath: ./lychee/out.md
+          labels: maintenance

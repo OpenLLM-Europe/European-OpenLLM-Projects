@@ -1,6 +1,6 @@
 # European Open Source LLM Projects :eu:
 
-We're **OpenLLM France** :fr::eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages.
+We're **OpenLLM Europe** :eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages.
 
 - Website: <https://openllm-france.fr/>
 - Discord: <https://discord.gg/8cHZ6NVwxd>
@@ -8,6 +8,8 @@ We're **OpenLLM France** :fr::eu:, an Open Source community committed to empower
 - Contact: <contact@openllm-france.org>
 
 This repository maintains a **curated, living catalogue** of European open-source LLM projects, models, datasets, and initiatives. It is intentionally opinionated: projects are grouped by role in the ecosystem rather than by nationality alone, and inactive artefacts are archived rather than deleted, so the map stays honest.
+
+> **Your project is missing?** Adding it takes two minutes and no git: open the [Add a project form](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=add-project.yml) and we turn it into a catalogue row. Prefer a pull request? Copy the [row template](#row-templates) for the right section. Spotted a stale date or a dead link? [Tell us](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=update-entry.yml).
 
 ---
 
@@ -53,7 +55,7 @@ Openly licensed foundation LLMs trained from scratch in Europe (or by European t
 | **Alfred Sovereign v5** (LightOn) | text (RAG-oriented) | open weights + Paradigm platform | Alfred-sv5 (24B), 2025-2026 | :fr: France | [LightOn docs](https://docs.lighton.ai/en/developer-resources/lighton-models/alfred-sv5) |
 | **Holo-1 / Surfer H** (H Company) | vision-language action model (web agents) | Apache 2.0 (open weights) | Holo-1 3B and 7B, 06/2025, Holo 3 in 2026 | :fr: France | [hcompany.ai](https://hcompany.ai/), [Surfer H CLI](https://github.com/hcompai/surfer-h-cli) |
 | **Moshi / Moshika** (Kyutai) | full-duplex speech-to-speech | code MIT + Apache 2.0, weights CC-BY 4.0 | Public release 09/2024, TTS 1.6B and Unmute in 2026 | :fr: France | [kyutai.org](https://kyutai.org/), [GitHub](https://github.com/kyutai-labs/moshi) |
-| **Voxtral** (Mistral AI) | speech understanding + TTS + transcription (3B, 4B, 24B) | multilingual (up to 13 languages) | Apache 2.0 (understanding, Realtime), CC-BY-NC 4.0 (TTS) | Voxtral 07/2025, Transcribe 2 02/2026, TTS 03/2026 | :fr: France | [mistral.ai](https://mistral.ai/news/voxtral/), [Transcribe 2](https://mistral.ai/news/voxtral-transcribe-2/), [TTS](https://mistral.ai/news/voxtral-tts/) |
+| **Voxtral** (Mistral AI) | speech understanding + TTS + transcription (3B, 4B, 24B), multilingual up to 13 languages | Apache 2.0 (understanding, Realtime), CC-BY-NC 4.0 (TTS) | Voxtral 07/2025, Transcribe 2 02/2026, TTS 03/2026 | :fr: France | [mistral.ai](https://mistral.ai/news/voxtral/), [Transcribe 2](https://mistral.ai/news/voxtral-transcribe-2/), [TTS](https://mistral.ai/news/voxtral-tts/) |
 
 ---
 
@@ -64,12 +66,15 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | Project | Country / origin | Focus | License | Latest activity | Links |
 | --- | --- | --- | --- | --- | --- |
 | **AI Sweden** | :sweden: Sweden | GPT-SW3, Nordic models | mixed | Institutional programme, ongoing | [ai.se](https://www.ai.se/en) |
+| **Beia Consult International** | :ro: Romania | Romanian speech and NLP, ASR, TTS and chatbots, inside EU research projects | mixed | R&D SME, active across FP7, H2020 and Horizon Europe projects | [beia.ro](https://beia.ro/), [EU projects](https://beiaro.eu/) |
+| **Blip.solutions** | :slovakia: Slovakia | Open-source LLM tooling, langchain-decorators and prompt tracing | MIT | langchain-decorators still updated 04/2026 | [blip.solutions](https://www.blip.solutions/), [GitHub](https://github.com/ju-bezdek/langchain-decorators) |
 | **Claire family** (OpenLLM France) | :fr: France | French conversational | Apache 2.0 | 2023-2024 (predecessor to Lucie/Luciole) | [HF](https://huggingface.co/OpenLLM-France) |
 | **CroAI** | :croatia: Croatia | Croatian AI community | open | Active community | [croai.org](https://www.croai.org/) |
 | **Croissant LLM** (CentraleSupélec + Illuin) | :fr: France | fr-en bilingual, small model | open | Reference 1.3B bilingual model | [HF](https://huggingface.co/croissantllm) |
 | **Danish Foundation Models** (Munin family) | :denmark: Denmark | Danish | open | Munin 7B alpha 2024, continued in 2025 | [HF](https://huggingface.co/danish-foundation-models) |
 | **DanskGPT** | :denmark: Denmark | Danish assistant | mixed | Public 2024-2025 | [danskgpt.dk](https://www.danskgpt.dk/) |
 | **EMBEDDIA / SloBERTa** | :lithuania: Lithuania / :slovenia: Slovenia | Baltic and Slavic | open (research) | Historical family, still used | [embeddia.eu](http://embeddia.eu/) |
+| **Expert AI** | :it: Italy | Hybrid neuro-symbolic NLP, knowledge graphs combined with LLMs | mixed | Active commercial + research | [expert.ai](https://www.expert.ai/) |
 | **Fauno Italian LLM** (Sapienza) | :it: Italy | Italian | open | Reference release 2023-2024 | [GitHub](https://github.com/RSTLess-research/Fauno-Italian-LLM) |
 | **Going Dutch, GEITje** | :netherlands: Netherlands | Dutch | open | Community-maintained | [Blog](https://goingdutch.ai/en/posts/introducing-geitje/) |
 | **Hilanco** | :hungary: Hungary | Hungarian | open | Community project | [hilanco.github.io](https://hilanco.github.io/home.html) |
@@ -80,6 +85,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | **Llama-Krikri** (ILSP, Athena Research Center) | :greece: Greece | Greek LLMs and Greek evaluation suite | Llama 3.1 | Krikri 8B Instruct updated 12/2025, Greek evaluation datasets updated 2026 | [Krikri collection](https://huggingface.co/collections/ilsp/krikri-8b-68273283651ba864d44fc33a), [Greek evaluation suite](https://huggingface.co/collections/ilsp/ilsp-greek-evaluation-suite-6827304d5bf8b70d0346b02c), [ILSP on HF](https://huggingface.co/ilsp) |
 | **LLM for Romanian (ILDS)** | :ro: Romania | Romanian | open (research) | Active 2024-2025 | [ilds.ro](https://ilds.ro/llm-for-romanian/) |
 | **NLP Odyssey** | :it: Italy | NLP libs and models | open | Active OpenCollective | [OpenCollective](https://opencollective.com/nlpodyssey) |
+| **Nordavind, nordic-ner** (Tollef Jørgensen, NTNU and Sikt) | :norway: Norway | Norwegian and Nordic fine-tunes, NER and evaluation datasets | open | Nordavind Llama 3.1 8B 02/2025, Nordic NER and Norwegian STS datasets | [HF](https://huggingface.co/tollefj), [Norwegian LLMs collection](https://huggingface.co/collections/tollefj/norwegian-llms) |
 | **NOUS Research** | :gb: United Kingdom | Instruction & alignment | mixed open | Regular releases in 2025-2026 | [HF](https://huggingface.co/NousResearch) |
 | **PORO / Viking / Europa** (ex-Silo AI, now AMD) | :fi: Finland / International | Nordic + multilingual | Apache 2.0 | Models still openly available, roadmap now under AMD | [Announcement](https://www.silo.ai/blog/poro-a-family-of-open-models-that-bring-european-languages-to-the-frontier) |
 | **SiloGen platform** (AMD, ex-Silo AI) | :fi: Finland (AMD) | Enterprise LLM ops | mixed | Post-acquisition 2024+ | See section 4 |
@@ -108,7 +114,7 @@ First-generation BERT-family models and early monolingual encoders. Based on pub
 | **SloBERTa** | sl | :slovenia: Slovenia | [HF](https://huggingface.co/EMBEDDIA/sloberta) |
 | **YugoGPT** | Serbo-Croatian family | :serbia: Serbia, :croatia: Croatia, :bosnia_herzegovina: Bosnia and Herzegovina, :macedonia: North Macedonia, :kosovo: Kosovo | [yugochat.com](https://www.yugochat.com/) |
 
-> Adjacent, non-European projects (LangFuse, Sayhan and Sestek, AI Forever, Yandex YaLM, EleutherAI) previously listed at repo level are no longer catalogued here. They are excellent references but out of scope for a European catalogue.
+> Adjacent, non-European projects (LangFuse, Sayhan and Sestek, AI Forever, Yandex YaLM, Evidently AI, EleutherAI) previously listed at repo level are no longer catalogued here. They are excellent references but out of scope for a European catalogue. Two further entries were dropped rather than archived: **Statisfied**, whose site no longer resolves, and **Sosnitskij**, a Hugging Face account republishing quantised Russian models with no activity since 02/2024.
 
 ---
 
@@ -142,6 +148,7 @@ The following organisations are **not models** but structure the European open-s
 | **EuroHPC JU** | European supercomputing joint undertaking (LUMI, Leonardo, JUWELS, MareNostrum 5, Jupiter, Alice Recoque) | [eurohpc-ju.europa.eu](https://eurohpc-ju.europa.eu/) |
 | **Fraunhofer IAIS** | Coordinator of OpenGPT-X, TrustLLM, Eurolingua | [iais.fraunhofer.de](https://www.iais.fraunhofer.de/en.html) |
 | **GENCI + Jules Verne consortium** | French national HPC, hosting Jean Zay, leading the **Alice Recoque** Exascale system for EuroHPC | [genci.fr](https://www.genci.fr) |
+| **GFOSS, Open Technologies Alliance** | Greek non-profit backed by 38 universities and research centres, runs GlossAPI to strengthen Greek in NLP | [gfoss.eu](https://gfoss.eu/), [GitHub](https://github.com/eellak) |
 | **LLMs4EU** | Flagship ALT-EDIC project | [ALT-EDIC, LLMs4EU](https://www.alt-edic.eu/projects/llms4eu/) |
 | **Luxembourg Institute of Science and Technology (LIST), Trustworthy AI group** | Research on trustworthy AI at EU level | [list.lu](https://www.list.lu/en/environment/research-groups/group/trustworthy-ai/) |
 | **Open Source Initiative (OSI)** | Maintains the **Open Source AI Definition (OSAID)** | [opensource.org](https://opensource.org/) |
@@ -153,16 +160,103 @@ The following organisations are **not models** but structure the European open-s
 
 ## How to contribute
 
-We welcome PRs that:
+Two ways in, pick whichever suits you.
+
+**1. Open an issue, no git needed.** Fill the [Add a project form](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=add-project.yml) and a maintainer turns it into a catalogue row. Use the [update form](https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=update-entry.yml) for a stale date, a dead link, or a project whose status has changed. This is the recommended path if pull requests are not your daily tool.
+
+**2. Send a pull request.** Copy the [row template](#row-templates) for the right section, fill it in, open the pull request.
+
+### What we accept
 
 - Add a **missing European open-source project** with a public artefact (model card, dataset card, or repository).
 - **Update the "Latest release" column** with an evidence link (Hugging Face, GitHub, arXiv, or an official press release).
 - **Move a project** across sections when its status changes, for example from section 2 to section 3 when a project becomes inactive, or from section 1 to section 4 after an acquisition.
 - Add or fix links.
 
-Please keep entries **short, evidence-based, and honest**. This catalogue is designed to help European teams find each other and build together, not to advertise vapourware. When in doubt, open an issue first.
+### House rules
 
-Every listed contact is an existing public contact for the project (mailing list, contact form, LinkedIn). Please do not add personal emails without the person's consent.
+- **One project per pull request.** The whole catalogue lives in a single file, so small pull requests are what keeps contributors from conflicting with each other.
+- **Rows are sorted alphabetically** inside each table. Insert yours in the right place rather than at the end.
+- **Touch your row and nothing else.** No reformatting, no reflowing the rest of the table.
+- **Match the column count of the section you are editing.** The six tables do not share the same columns, and a row copied from another section renders broken. A check runs on every pull request to catch this.
+- Keep entries **short, evidence-based, and honest**. This catalogue is designed to help European teams find each other and build together, not to advertise vapourware. When in doubt, open an issue first.
+- Every listed contact must be an **existing public contact** for the project (mailing list, contact form, LinkedIn). Please do not add personal emails without the person's consent.
+
+### Row templates
+
+Copy the block for your section, replace the placeholders, and paste your single row into the table. The header and separator lines are shown so you can see the shape, do not paste them.
+
+<details>
+<summary><b>1. Foundation models, European frontier</b> &mdash; 7 columns</summary>
+
+```markdown
+| Model / family | Sizes | Languages | License | Latest release | Origin | Links |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Model name** (organisation) | 7B, 70B | fr, en + EU | Apache 2.0 | MM/YYYY | Country | [site](https://example.org), [HF](https://huggingface.co/example) |
+```
+
+</details>
+
+<details>
+<summary><b>Speech, multimodal and agent foundation models</b> &mdash; 6 columns</summary>
+
+```markdown
+| Model | Modalities | License | Latest release | Origin | Links |
+| --- | --- | --- | --- | --- | --- |
+| **Model name** (organisation) | speech-to-speech, 7B | Apache 2.0 | MM/YYYY | :eu: Country | [site](https://example.org), [HF](https://huggingface.co/example) |
+```
+
+</details>
+
+<details>
+<summary><b>2. National and community LLMs (active)</b> &mdash; 6 columns</summary>
+
+```markdown
+| Project | Country / origin | Focus | License | Latest activity | Links |
+| --- | --- | --- | --- | --- | --- |
+| **Project name** (organisation) | :eu: Country | What it works on | Apache 2.0 | What shipped and when | [site](https://example.org), [HF](https://huggingface.co/example) |
+```
+
+</details>
+
+<details>
+<summary><b>3. Archives and historical models</b> &mdash; 4 columns</summary>
+
+```markdown
+| Model | Language | Origin | Links |
+| --- | --- | --- | --- |
+| **Model name** (organisation) | xx | :eu: Country | [HF](https://huggingface.co/example) - one line of lineage, what superseded it |
+```
+
+</details>
+
+<details>
+<summary><b>4. Reoriented or acquired projects</b> &mdash; 4 columns</summary>
+
+```markdown
+| Project | Status | What happened | Links |
+| --- | --- | --- | --- |
+| **Project name** | Acquired / Superseded / Reoriented | One sentence, with the date | [announcement](https://example.org) |
+```
+
+</details>
+
+<details>
+<summary><b>Ecosystem organisations and infrastructures</b> &mdash; 3 columns</summary>
+
+```markdown
+| Organisation | Role | Links |
+| --- | --- | --- |
+| **Organisation name** | What it does for the ecosystem | [site](https://example.org) |
+```
+
+</details>
+
+Before opening the pull request you can run the same check as CI:
+
+```bash
+python3 .github/scripts/check_tables.py README.md
+```
 
 ## License
 
