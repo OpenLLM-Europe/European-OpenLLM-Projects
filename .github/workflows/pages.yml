@@ -1,0 +1,51 @@
+name: Catalogue site
+
+# README.md stays the source of truth. The site is rebuilt from it on every
+# push to main, so nobody has to remember to regenerate anything, and the
+# built page is never committed.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - ".github/scripts/build_site.py"
+      - ".github/scripts/site_template.html"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# A queued run should publish the newest README, not fight the one in flight.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render README.md into site/
+        run: python3 .github/scripts/build_site.py README.md site/index.html
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
