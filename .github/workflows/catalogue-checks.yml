@@ -5,6 +5,8 @@ on:
     paths:
       - "README.md"
       - ".github/scripts/check_tables.py"
+      - ".github/scripts/build_site.py"
+      - ".github/scripts/site_template.html"
       - ".github/workflows/catalogue-checks.yml"
   push:
     branches: [main]
@@ -21,3 +23,6 @@ jobs:
 
       - name: Check that every row matches its table header
         run: python3 .github/scripts/check_tables.py README.md
+
+      - name: Check that the catalogue site still builds
+        run: python3 .github/scripts/build_site.py README.md /tmp/index.html

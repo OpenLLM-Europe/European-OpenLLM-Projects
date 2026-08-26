@@ -2,6 +2,7 @@
 
 We're **OpenLLM Europe** :eu:, an Open Source community committed to empowering LLM projects in all European languages, with a specific focus on medium and low-resource languages. Our working language is English.
 
+- Catalogue, full width and searchable: <https://openllm-europe.github.io/European-OpenLLM-Projects/>
 - Discord: <https://discord.gg/8cHZ6NVwxd>, shared with OpenLLM France, see the note below
 - GitHub: <https://github.com/OpenLLM-Europe>
 - Contact: <contact@openllm-europe.org>
@@ -255,11 +256,18 @@ Copy the block for your section, replace the placeholders, and paste your single
 
 </details>
 
-Before opening the pull request you can run the same check as CI:
+Before opening the pull request you can run the same checks as CI:
 
 ```bash
 python3 .github/scripts/check_tables.py README.md
+python3 .github/scripts/build_site.py README.md site/index.html
 ```
+
+The second one renders this file into the [catalogue
+site](https://openllm-europe.github.io/European-OpenLLM-Projects/), which is
+where the tables are readable at full width. It is rebuilt from `README.md` on
+every push to `main`, so there is nothing extra to edit and nothing to commit:
+this file stays the only source of truth.
 
 ## License
 

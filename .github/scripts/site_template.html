@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>European Open Source LLM Projects</title>
+<meta name="description" content="A curated, living catalogue of European open-source LLM projects, models, datasets and initiatives.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🇪🇺</text></svg>">
+<style>
+:root{
+  --paper:#F4F6F8; --raised:#FFFFFF; --ink:#10162A; --muted:#5A6478;
+  --rule:#D5DCE5; --accent:#2B44C7;
+  --frontier:#2B44C7; --active:#1F7A5C; --archive:#7C8595;
+  --moved:#B4532A; --infra:#6B4FA8;
+  --shell:min(100% - 3rem, 1680px);
+}
+:root:not([data-theme=light]) { color-scheme: light; }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme=light]){
+    --paper:#0B0F1C; --raised:#121829; --ink:#E3E8F2; --muted:#8B95AB;
+    --rule:#232B40; --accent:#8195FF;
+    --frontier:#8195FF; --active:#4FBF95; --archive:#8B95AB;
+    --moved:#E08A5E; --infra:#A98CE0; color-scheme:dark;
+  }
+}
+:root[data-theme=dark]{
+  --paper:#0B0F1C; --raised:#121829; --ink:#E3E8F2; --muted:#8B95AB;
+  --rule:#232B40; --accent:#8195FF;
+  --frontier:#8195FF; --active:#4FBF95; --archive:#8B95AB;
+  --moved:#E08A5E; --infra:#A98CE0; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent); text-decoration-thickness:1px; text-underline-offset:2px}
+a:hover{text-decoration-thickness:2px}
+code{font-family:"IBM Plex Mono",monospace; font-size:.9em}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:2px}
+.shell{width:var(--shell); margin-inline:auto}
+
+/* ---- Masthead: the shape of the map, stated plainly ---- */
+.masthead{padding:clamp(3rem,7vw,6rem) 0 2.5rem; border-bottom:1px solid var(--rule)}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 1.5rem;
+}
+h1{
+  font-family:Archivo,sans-serif; font-weight:700; font-size:clamp(2.4rem,6.5vw,4.6rem);
+  line-height:.98; letter-spacing:-.03em; margin:0 0 1.5rem; max-width:20ch;
+}
+h1 em{font-style:normal; color:var(--accent)}
+.lede{font-size:clamp(1rem,1.6vw,1.15rem); color:var(--muted); max-width:62ch; margin:0 0 2.5rem}
+.tally{
+  display:flex; flex-wrap:wrap; gap:0 2.5rem; font-family:"IBM Plex Mono",monospace;
+  font-size:.78rem; letter-spacing:.04em; color:var(--muted);
+  border-top:1px solid var(--rule); padding-top:1.25rem;
+}
+.tally b{color:var(--ink); font-weight:500}
+.band{
+  margin-top:1.25rem; font-size:1.05rem; line-height:1.9; letter-spacing:.22em;
+  word-break:keep-all;
+}
+
+/* ---- Controls ---- */
+.controls{
+  position:sticky; top:0; z-index:30; background:var(--paper);
+  border-bottom:1px solid var(--rule); padding:.85rem 0;
+}
+.controls-inner{display:flex; flex-wrap:wrap; gap:.75rem; align-items:center}
+.search{
+  flex:1 1 17rem; display:flex; align-items:center; gap:.55rem;
+  background:var(--raised); border:1px solid var(--rule); border-radius:3px; padding:.5rem .75rem;
+}
+.search svg{flex:none; color:var(--muted)}
+.search input{
+  flex:1; border:0; background:none; color:inherit; font:inherit; min-width:0; padding:0;
+}
+.search input:focus{outline:none}
+.chips{display:flex; flex-wrap:wrap; gap:.4rem}
+.chip{
+  font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.04em;
+  padding:.4rem .6rem; border:1px solid var(--rule); border-radius:3px;
+  background:none; color:var(--muted); cursor:pointer;
+}
+.chip:hover{color:var(--ink); border-color:var(--muted)}
+.chip[aria-pressed=true]{background:var(--ink); border-color:var(--ink); color:var(--paper)}
+.count{
+  font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--muted);
+  margin-left:auto; white-space:nowrap;
+}
+
+/* ---- Sections: the spine carries the stratum ---- */
+.section{padding:3.5rem 0 0}
+.section-head{
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:.5rem 1rem;
+  border-left:3px solid var(--tone); padding-left:1rem; margin-bottom:1.25rem;
+}
+.section[data-status=frontier]{--tone:var(--frontier)}
+.section[data-status=active]{--tone:var(--active)}
+.section[data-status=archive]{--tone:var(--archive)}
+.section[data-status=moved]{--tone:var(--moved)}
+.section[data-status=infra]{--tone:var(--infra)}
+.section h2{
+  font-family:Archivo,sans-serif; font-weight:600; font-size:clamp(1.15rem,2.2vw,1.5rem);
+  letter-spacing:-.015em; margin:0;
+}
+.stratum{
+  font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--tone);
+}
+.section-count{font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--muted)}
+
+/* ---- Tables: the reason this page exists ---- */
+.scroller{overflow-x:auto; border-block:1px solid var(--rule)}
+table{border-collapse:collapse; width:100%; font-size:.86rem}
+th,td{
+  text-align:left; vertical-align:top; padding:.7rem .85rem;
+  border-bottom:1px solid var(--rule);
+}
+thead th{
+  background:var(--paper);
+  font-family:"IBM Plex Mono",monospace; font-weight:500; font-size:.68rem;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--muted);
+  cursor:pointer; user-select:none; white-space:nowrap;
+  border-bottom:1px solid var(--ink);
+}
+thead th:hover{color:var(--ink)}
+thead th::after{content:"\2003"; opacity:.35; font-size:.85em}
+thead th[data-dir=asc]::after{content:"\2003\25B2"; opacity:1; color:var(--accent)}
+thead th[data-dir=desc]::after{content:"\2003\25BC"; opacity:1; color:var(--accent)}
+tbody tr:hover{background:var(--raised)}
+td:first-child,th:first-child{
+  position:sticky; left:0; background:var(--paper); min-width:13rem;
+  border-right:1px solid var(--rule);
+}
+tbody tr:hover td:first-child{background:var(--raised)}
+td:first-child strong{font-weight:600}
+td{color:var(--muted)}
+td:first-child{color:var(--ink)}
+tr[hidden]{display:none}
+
+.empty{
+  padding:3rem 1rem; text-align:center; color:var(--muted);
+  font-family:"IBM Plex Mono",monospace; font-size:.8rem;
+}
+footer{
+  margin-top:4rem; padding:2rem 0 3rem; border-top:1px solid var(--rule);
+  font-size:.82rem; color:var(--muted);
+  display:flex; flex-wrap:wrap; gap:.5rem 1.5rem; align-items:center;
+}
+.theme{
+  margin-left:auto; font-family:"IBM Plex Mono",monospace; font-size:.72rem;
+  background:none; border:1px solid var(--rule); border-radius:3px;
+  color:var(--muted); padding:.4rem .6rem; cursor:pointer;
+}
+.theme:hover{color:var(--ink); border-color:var(--muted)}
+
+@media (max-width:640px){
+  :root{--shell:min(100% - 1.5rem, 1680px)}
+  td:first-child,th:first-child{position:static; min-width:11rem}
+}
+@media (prefers-reduced-motion:no-preference){
+  .reveal{animation:rise .5s cubic-bezier(.2,.7,.3,1) backwards}
+  .reveal:nth-child(2){animation-delay:.06s}
+  .reveal:nth-child(3){animation-delay:.12s}
+  .reveal:nth-child(4){animation-delay:.18s}
+  @keyframes rise{from{opacity:0; transform:translateY(.6rem)}}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="shell">
+    <p class="eyebrow reveal">OpenLLM Europe &middot; living catalogue</p>
+    <h1 class="reveal">Who is building <em>open</em> language models in Europe.</h1>
+    <p class="lede reveal">__INTRO__</p>
+    <div class="reveal">
+      <div class="tally">
+        <span><b>__TOTAL__</b> entries</span>
+        <span><b>__SECTIONS__</b> tables</span>
+        <span><b>__COUNTRIES__</b> countries and territories</span>
+        <span>source: <a href="https://github.com/OpenLLM-Europe/European-OpenLLM-Projects">README.md</a></span>
+      </div>
+      <div class="band" aria-label="__COUNTRIES__ countries and territories represented in the catalogue">__FLAGS__</div>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="shell controls-inner">
+    <label class="search">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="q" type="search" placeholder="Search models, countries, licences, organisations" aria-label="Search the catalogue" autocomplete="off">
+    </label>
+    <div class="chips" id="chips"></div>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main class="shell" id="main"></main>
+
+<footer class="shell">
+  <span>Catalogue released under CC-BY 4.0. Individual projects keep their own licences.</span>
+  <a href="https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=add-project.yml">Add a project</a>
+  <a href="https://github.com/OpenLLM-Europe/European-OpenLLM-Projects/issues/new?template=update-entry.yml">Report a stale entry</a>
+  <button class="theme" id="theme" type="button">Theme</button>
+</footer>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+const TABLES = JSON.parse(document.getElementById("data").textContent);
+const main = document.getElementById("main");
+const chips = document.getElementById("chips");
+const count = document.getElementById("count");
+const query = document.getElementById("q");
+let active = null;
+
+const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+TABLES.forEach((table) => {
+  const section = document.createElement("section");
+  section.className = "section";
+  section.dataset.status = table.status;
+  section.id = slug(table.section);
+
+  const head = document.createElement("div");
+  head.className = "section-head";
+  head.innerHTML =
+    '<h2>' + table.section + '</h2>' +
+    (table.note ? '<span class="stratum">' + table.note + '</span>' : '') +
+    '<span class="section-count">' + table.rows.length + '</span>';
+  section.append(head);
+
+  const scroller = document.createElement("div");
+  scroller.className = "scroller";
+  const el = document.createElement("table");
+  el.innerHTML =
+    "<thead><tr>" +
+    table.columns.map((c, i) => '<th scope="col" data-col="' + i + '">' + c + "</th>").join("") +
+    "</tr></thead><tbody>" +
+    table.rows.map((r) => "<tr data-text=\"" + r.text.replace(/"/g, "&quot;") + "\">" +
+      r.html.map((c) => "<td>" + c + "</td>").join("") + "</tr>").join("") +
+    "</tbody>";
+  scroller.append(el);
+  section.append(scroller);
+
+  const empty = document.createElement("p");
+  empty.className = "empty";
+  empty.hidden = true;
+  empty.textContent = "Nothing in this section matches.";
+  section.append(empty);
+  main.append(section);
+
+  // Sorting is per table: each one has its own columns, so a global sort
+  // would be meaningless.
+  el.querySelectorAll("th").forEach((th) => {
+    th.addEventListener("click", () => {
+      const dir = th.dataset.dir === "asc" ? "desc" : "asc";
+      el.querySelectorAll("th").forEach((other) => delete other.dataset.dir);
+      th.dataset.dir = dir;
+      const index = Number(th.dataset.col);
+      const body = el.querySelector("tbody");
+      const sorted = [...body.rows].sort((a, b) => {
+        const x = a.cells[index].textContent.trim();
+        const y = b.cells[index].textContent.trim();
+        return dir === "asc" ? x.localeCompare(y, "en") : y.localeCompare(x, "en");
+      });
+      sorted.forEach((row) => body.append(row));
+    });
+  });
+});
+
+TABLES.forEach((table) => {
+  const chip = document.createElement("button");
+  chip.className = "chip";
+  chip.type = "button";
+  chip.textContent = table.short;
+  chip.setAttribute("aria-pressed", "false");
+  chip.addEventListener("click", () => {
+    active = active === table.section ? null : table.section;
+    chips.querySelectorAll(".chip").forEach((c) =>
+      c.setAttribute("aria-pressed", String(c.textContent === chip.textContent && active !== null))
+    );
+    filter();
+  });
+  chips.append(chip);
+});
+
+function filter() {
+  const needle = query.value.trim().toLowerCase();
+  let shown = 0;
+  main.querySelectorAll(".section").forEach((section, i) => {
+    const inScope = active === null || TABLES[i].section === active;
+    let visible = 0;
+    section.querySelectorAll("tbody tr").forEach((row) => {
+      const match = inScope && (!needle || row.dataset.text.includes(needle));
+      row.hidden = !match;
+      if (match) visible++;
+    });
+    section.hidden = !inScope;
+    section.querySelector(".empty").hidden = visible > 0;
+    section.querySelector(".scroller").hidden = visible === 0;
+    section.querySelector(".section-count").textContent = visible;
+    shown += visible;
+  });
+  const total = TABLES.reduce((n, t) => n + t.rows.length, 0);
+  count.textContent = shown === total ? total + " entries" : shown + " of " + total;
+}
+
+query.addEventListener("input", filter);
+query.addEventListener("keydown", (e) => { if (e.key === "Escape") { query.value = ""; filter(); } });
+
+const theme = document.getElementById("theme");
+theme.addEventListener("click", () => {
+  const now = document.documentElement.dataset.theme;
+  const next = now === "dark" ? "light" : now === "light" ? "" : "dark";
+  if (next) document.documentElement.dataset.theme = next;
+  else delete document.documentElement.dataset.theme;
+  try { localStorage.setItem("theme", next); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem("theme");
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+filter();
+</script>
+</body>
+</html>
