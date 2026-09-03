@@ -36,7 +36,6 @@ Openly licensed foundation LLMs trained from scratch in Europe (or by European t
 | Model / family | Sizes | Languages | License | Latest release | Origin | Links |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Apertus / Swiss AI Initiative** (EPFL + ETH Zürich) | flagship LLM (trained on Alps supercomputer) | multilingual | open | 2025 | Switzerland | [Swiss AI Initiative](https://swiss-ai.org/) |
-| **BgGPT 3.0** (INSAIT, Sofia) | 4B, 12B, 27B (vision + 131k ctx, based on Gemma 3) | bg, en | Gemma Terms of Use | 03/2026 | Bulgaria | [models.bggpt.ai](https://models.bggpt.ai/blog/), [HF](https://huggingface.co/INSAIT-Institute) |
 | **Bielik v3** (SpeakLeash + ACK Cyfronet AGH) | 1.5B, 4.5B, 11B | pl + 20 EU languages (v3.0 11B) | Apache 2.0 | v3.0 11B: 12/2025, Minitron 7B v3: 04/2026 | Poland | [HF collection](https://huggingface.co/collections/speakleash/bielik-v3-family), [SpeakLeash](https://github.com/speakleash) |
 | **Devstral 2 / Magistral / Ministral** (Mistral AI) | 3B to 123B | multilingual + code | Apache 2.0 (Devstral 2: modified MIT) | 12/2025 | France | [Devstral](https://mistral.ai/news/devstral-2507/), [Magistral](https://mistral.ai/news/magistral/) |
 | **Dragon LLM** (Lingua Custodia) | 3.8B demonstrator, 7B and 70B planned | fr, en + EU | open source (mixed with proprietary) | Demonstrator 2025 | France | [Company brief](https://emag.directindustry.com/2025/11/06/dragon-llm-ceo-olivier-debeugny-europe-frugal-ai-architecture-genai-airbus/) |
@@ -71,6 +70,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | --- | --- | --- | --- | --- | --- |
 | **AI Sweden** | :sweden: Sweden | GPT-SW3, Nordic models | mixed | Institutional programme, ongoing | [ai.se](https://www.ai.se/en) |
 | **Beia Consult International** | :ro: Romania | Romanian speech and NLP, ASR, TTS and chatbots, inside EU research projects | mixed | R&D SME, active across FP7, H2020 and Horizon Europe projects | [beia.ro](https://beia.ro/), [EU projects](https://beiaro.eu/) |
+| **BgGPT 3.0** (INSAIT, Sofia) | :bulgaria: Bulgaria | Bulgarian and English LLMs continued from Gemma 3, 4B to 27B, with vision and 131k context | Gemma Terms of Use | 03/2026 | [models.bggpt.ai](https://models.bggpt.ai/blog/), [HF](https://huggingface.co/INSAIT-Institute) |
 | **Blip.solutions** | :slovakia: Slovakia | Open-source LLM tooling, langchain-decorators and prompt tracing | MIT | langchain-decorators still updated 04/2026 | [blip.solutions](https://www.blip.solutions/), [GitHub](https://github.com/ju-bezdek/langchain-decorators) |
 | **Claire family** (OpenLLM France) | :fr: France | French conversational | Apache 2.0 | 2023-2024 (predecessor to Lucie/Luciole) | [HF](https://huggingface.co/OpenLLM-France) |
 | **CroAI** | :croatia: Croatia | Croatian AI community | open | Active community | [croai.org](https://www.croai.org/) |
