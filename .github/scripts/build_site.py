@@ -49,7 +49,7 @@ EMOJI = {
     "bulgaria": "\U0001F1E7\U0001F1EC", "czech_republic": "\U0001F1E8\U0001F1FF",
     "kosovo": "\U0001F1FD\U0001F1F0", "macedonia": "\U0001F1F2\U0001F1F0",
     "bosnia_herzegovina": "\U0001F1E7\U0001F1E6",
-    "ukraine": "\U0001F1FA\U0001F1E6",
+    "ukraine": "\U0001F1FA\U0001F1E6", "es": "\U0001F1EA\U0001F1F8",
     "united_arab_emirates": "\U0001F1E6\U0001F1EA",
 }
 
