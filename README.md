@@ -37,7 +37,7 @@ Openly licensed foundation LLMs trained from scratch in Europe (or by European t
 | --- | --- | --- | --- | --- | --- | --- |
 | **Apertus / Swiss AI Initiative** (EPFL + ETH Zürich) | flagship LLM (trained on Alps supercomputer) | multilingual | open | 2025 | Switzerland | [Swiss AI Initiative](https://swiss-ai.org/) |
 | **BgGPT 3.0** (INSAIT, Sofia) | 4B, 12B, 27B (vision + 131k ctx, based on Gemma 3) | bg, en | Gemma Terms of Use | 03/2026 | Bulgaria | [models.bggpt.ai](https://models.bggpt.ai/blog/), [HF](https://huggingface.co/INSAIT-Institute) |
-| **Bielik v3** (SpeakLeash + ACK Cyfronet AGH) | 1.5B, 4.5B, 11B | pl + 20 EU languages (v3.0 11B) | Apache 2.0 | v3.0 11B: 12/2025, Minitron 7B v3: 04/2026 | Poland | [HF collection](https://huggingface.co/collections/speakleash/bielik-v3-family), [SpeakLeash](https://speakleash.org/) |
+| **Bielik v3** (SpeakLeash + ACK Cyfronet AGH) | 1.5B, 4.5B, 11B | pl + 20 EU languages (v3.0 11B) | Apache 2.0 | v3.0 11B: 12/2025, Minitron 7B v3: 04/2026 | Poland | [HF collection](https://huggingface.co/collections/speakleash/bielik-v3-family), [SpeakLeash](https://github.com/speakleash) |
 | **Devstral 2 / Magistral / Ministral** (Mistral AI) | 3B to 123B | multilingual + code | Apache 2.0 (Devstral 2: modified MIT) | 12/2025 | France | [Devstral](https://mistral.ai/news/devstral-2507/), [Magistral](https://mistral.ai/news/magistral/) |
 | **Dragon LLM** (Lingua Custodia) | 3.8B demonstrator, 7B and 70B planned | fr, en + EU | open source (mixed with proprietary) | Demonstrator 2025 | France | [Company brief](https://emag.directindustry.com/2025/11/06/dragon-llm-ceo-olivier-debeugny-europe-frugal-ai-architecture-genai-airbus/) |
 | **EuroLLM** (Unbabel + Instituto Superior Técnico + INESC-ID) | 1.7B, 9B, 22B | all 24 EU languages | Apache 2.0 | 22B: 12/2025 | Portugal / EU | [eurollm.io](https://eurollm.io/), [EuroLLM-22B blog](https://huggingface.co/blog/eurollm-team/eurollm-22b) |
@@ -76,7 +76,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | **CroAI** | :croatia: Croatia | Croatian AI community | open | Active community | [croai.org](https://www.croai.org/) |
 | **Croissant LLM** (CentraleSupélec + Illuin) | :fr: France | fr-en bilingual, small model | open | Reference 1.3B bilingual model | [HF](https://huggingface.co/croissantllm) |
 | **Danish Foundation Models** (Munin family) | :denmark: Denmark | Danish | open | Munin 7B alpha 2024, continued in 2025 | [HF](https://huggingface.co/danish-foundation-models) |
-| **DanskGPT** | :denmark: Denmark | Danish assistant | mixed | Public 2024-2025 | [danskgpt.dk](https://www.danskgpt.dk/) |
+| **DanskGPT** | :denmark: Denmark | Danish assistant | mixed | Public 2024-2025 | [danskgpt.dk](https://danskgpt.dk/) |
 | **EMBEDDIA / SloBERTa** | :lithuania: Lithuania / :slovenia: Slovenia | Baltic and Slavic | open (research) | Historical family, still used | [embeddia.eu](http://embeddia.eu/) |
 | **Expert AI** | :it: Italy | Hybrid neuro-symbolic NLP, knowledge graphs combined with LLMs | mixed | Active commercial + research | [expert.ai](https://www.expert.ai/) |
 | **Fauno Italian LLM** (Sapienza) | :it: Italy | Italian | open | Reference release 2023-2024 | [GitHub](https://github.com/RSTLess-research/Fauno-Italian-LLM) |
@@ -116,7 +116,7 @@ First-generation BERT-family models and early monolingual encoders. Based on pub
 | **Sabia** | pt-br | :portugal: Portugal | [Paper](https://arxiv.org/abs/2304.07880) |
 | **Serbian LLM eval** | sr | :serbia: Serbia | [GitHub](https://github.com/gordicaleksa/serbian-llm-eval) |
 | **SloBERTa** | sl | :slovenia: Slovenia | [HF](https://huggingface.co/EMBEDDIA/sloberta) |
-| **YugoGPT** | Serbo-Croatian family | :serbia: Serbia, :croatia: Croatia, :bosnia_herzegovina: Bosnia and Herzegovina, :macedonia: North Macedonia, :kosovo: Kosovo | [yugochat.com](https://www.yugochat.com/) |
+| **YugoGPT** | Serbo-Croatian family | :serbia: Serbia, :croatia: Croatia, :bosnia_herzegovina: Bosnia and Herzegovina, :macedonia: North Macedonia, :kosovo: Kosovo | [HF](https://huggingface.co/gordicaleksa/YugoGPT) |
 
 > Adjacent, non-European projects (LangFuse, Sayhan and Sestek, AI Forever, Yandex YaLM, Evidently AI, EleutherAI) previously listed at repo level are no longer catalogued here. They are excellent references but out of scope for a European catalogue. Two further entries were dropped rather than archived: **Statisfied**, whose site no longer resolves, and **Sosnitskij**, a Hugging Face account republishing quantised Russian models with no activity since 02/2024.
 
@@ -155,7 +155,7 @@ The following organisations are **not models** but structure the European open-s
 | **GENCI + Jules Verne consortium** | French national HPC, hosting Jean Zay, leading the **Alice Recoque** Exascale system for EuroHPC | [genci.fr](https://www.genci.fr) |
 | **GFOSS, Open Technologies Alliance** | Greek non-profit backed by 38 universities and research centres, runs GlossAPI to strengthen Greek in NLP | [gfoss.eu](https://gfoss.eu/), [GitHub](https://github.com/eellak) |
 | **LLMs4EU** | Flagship ALT-EDIC project | [ALT-EDIC, LLMs4EU](https://www.alt-edic.eu/projects/llms4eu/) |
-| **Luxembourg Institute of Science and Technology (LIST), Trustworthy AI group** | Research on trustworthy AI at EU level | [list.lu](https://www.list.lu/en/environment/research-groups/group/trustworthy-ai/) |
+| **Luxembourg Institute of Science and Technology (LIST), Trustworthy AI group** | Research on trustworthy AI at EU level | [LIST research portal](https://researchportal.list.lu/organisation/detail/tai) |
 | **Open Source Initiative (OSI)** | Maintains the **Open Source AI Definition (OSAID)** | [opensource.org](https://opensource.org/) |
 | **OpenForum Europe** | EU open-source policy advocacy | [openforumeurope.org](https://openforumeurope.org/) |
 | **Paris Open Source AI Summit (POSAIS)** | Annual European gathering on open-source AI | [opensourceaisummit.eu](https://opensourceaisummit.eu/) |
