@@ -97,6 +97,7 @@ Living projects with real 2024-2026 releases, typically focused on one or a few 
 | **SiloGen platform** (AMD, ex-Silo AI) | :fi: Finland (AMD) | Enterprise LLM ops | mixed | Post-acquisition 2024+ | See section 4 |
 | **TartuNLP** | :estonia: Estonia | Estonian NLP, translation | open | Continuously maintained | [tartunlp.ai](https://tartunlp.ai/) |
 | **Tilde AI** | :latvia: Latvia | Baltic MT and LLM services, publisher of TildeOpen LLM (see section 1) | mixed | Active commercial + research | [tilde.com](https://www.tilde.com/) |
+| **Verification-Before-Assertion** (Luka Pintarič) | :slovenia: Slovenia | Provenance-marked verification regime for LLM output in low-resource languages: sourced-lexicon claim marking (⊢/⚠), append-only registers of named model failures, demo notebook in Slovenian | CC BY 4.0 (methodology) | v1.0 09/2026, proposed to Mistral cookbook ([#420](https://github.com/mistralai/cookbook/pull/420)) | [GitHub](https://github.com/AtmaOVictu/verification-before-assertion) |
 
 ---
 
